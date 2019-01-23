@@ -34,6 +34,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.provider.Settings;
@@ -43,6 +44,14 @@ import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.preference.ListPreference;
+import com.android.launcher3.LauncherFiles;
+import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.config.FeatureFlags;
+import com.android.launcher3.trust.TrustAppsActivity;
+import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
+import com.android.launcher3.util.SecureSettingsObserver;
+
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
@@ -85,6 +94,8 @@ public class SettingsActivity extends Activity
     public static final String EXTRA_SHOW_FRAGMENT_ARGS = ":settings:show_fragment_args";
     private static final int DELAY_HIGHLIGHT_DURATION_MILLIS = 600;
     public static final String SAVE_HIGHLIGHTED_KEY = "android:preference_highlighted";
+    public static final String KEY_MINUS_ONE = "pref_enable_minus_one";
+    public static final String KEY_TRUST_APPS = "pref_trust_apps";
 
     public static final String GRID_OPTIONS_PREFERENCE_KEY = "pref_grid_options";
 
@@ -290,6 +301,13 @@ public class SettingsActivity extends Activity
                             AospLauncherCallbacks.SEARCH_PACKAGE);
                 case GRID_OPTIONS_PREFERENCE_KEY:
                     return true;
+
+                case KEY_TRUST_APPS:
+                    preference.setOnPreferenceClickListener(p -> {
+                        Intent intent = new Intent(getActivity(), TrustAppsActivity.class);
+                        startActivity(intent);
+                        return true;
+                    });
             }
 
             return true;
