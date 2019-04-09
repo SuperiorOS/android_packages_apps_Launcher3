@@ -15,6 +15,7 @@ public class ShadeShortcutFactory extends SystemShortcutFactory {
     public ShadeShortcutFactory(Context context) {
         super(new BottomSheetShortcut(),
                 new SystemShortcut.Widgets(),
+                new SystemShortcut.Uninstall(),
                 new SystemShortcut.Install());
     }
 
