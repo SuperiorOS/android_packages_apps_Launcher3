@@ -59,6 +59,13 @@
         android:persistent="true" />
 
     <SwitchPreference
+	android:key="pref_dt_gesture"
+        android:title="@string/pref_dt_gesture_title"
+        android:summary="@string/pref_dt_gesture_summary"
+        android:defaultValue="true"
+	android:persistent="true"/>
+
+    <SwitchPreference
         android:defaultValue="true"
         android:key="pref_enable_minus_one"
         android:summary="@string/pref_show_google_now_summary"
