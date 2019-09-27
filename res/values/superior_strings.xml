@@ -28,4 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="smartspace_preferences">Preferences</string>
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Show at the top of your Home screen</string>
+
+    <!-- Gestures -->
+    <string name="pref_notification_gesture_title">Swipe down gesture</string>
+    <string name="pref_notification_gesture_summary">Swipe vertically downward on the home screen to show the notifications panel</string>
+    <string name="pref_dt_gesture_title">Double tap gesture</string>
+    <string name="pref_dt_gesture_summary">Double tap on empty space for screen-off</string>
 </resources>
