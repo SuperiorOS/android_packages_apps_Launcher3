@@ -65,6 +65,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.animation.Interpolator;
+import android.widget.Toast;
+
+import com.android.launcher3.R;
 
 import com.android.launcher3.compat.LauncherAppsCompat;
 import com.android.launcher3.compat.ShortcutConfigActivityInfo;
@@ -730,7 +733,8 @@ public final class Utilities {
                     runnable -> handler.post(runnable),
                     authenticationCallback);
         } else {
-            successRunnable.run();
+            Toast.makeText(context, R.string.trust_apps_no_lock_error, Toast.LENGTH_LONG)
+                .show();
         }
     }
 }
