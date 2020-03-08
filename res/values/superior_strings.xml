@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD:res/values/superior_strings.xml
 <!-- Copyright (C) 2022 SuperiorOS Project
+=======
+<!--
+     Copyright (C) 2016-2023 crDroid Android Project
+>>>>>>> 5464a714e7 (Launcher3: Update default workspace):res/values/cr_strings.xml
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,4 +22,7 @@
 
     <!-- Application name -->
     <string name="superior_app_name" translatable="false">Superior Launcher</string>
+
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
 </resources>
