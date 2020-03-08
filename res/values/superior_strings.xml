@@ -17,4 +17,7 @@
 
     <!-- Application name -->
     <string name="superior_app_name" translatable="false">Superior Launcher</string>
+
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
 </resources>
