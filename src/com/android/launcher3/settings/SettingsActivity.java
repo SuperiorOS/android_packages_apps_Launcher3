@@ -54,6 +54,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceFragment.OnPreferenceStartFragmentCallback;
 import androidx.preference.PreferenceFragment.OnPreferenceStartScreenCallback;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceGroup.PreferencePositionCallback;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
@@ -113,8 +114,9 @@ public class SettingsActivity extends Activity
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         } else if (Utilities.KEY_DT_GESTURE.equals(key)) {
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+        } else  if (Utilities.ICON_SIZE.equals(key)) {
+                LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         }
-
     }
 
     public interface OnResumePreferenceCallback {
