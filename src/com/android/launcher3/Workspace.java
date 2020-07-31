@@ -292,7 +292,9 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
                 new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
             @Override
             public boolean onDoubleTap(MotionEvent event) {
-                SuperiorUtils.switchScreenOff(context);
+                if (Utilities.useSleepGesture(context)) {
+                    SuperiorUtils.switchScreenOff(context);
+                }
                 return true;
             }
         });
