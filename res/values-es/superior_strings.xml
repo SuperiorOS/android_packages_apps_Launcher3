@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 Superior OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Settings -->
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Mostrar aplicación de Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Cuando deslizas a la derecha desde la pantalla de inicio</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Cuando deslizas a la izquierda desde la pantalla de inicio</string>
+    <!-- QSB -->
+    <string name="label_search">Búsqueda</string>
+    <string name="label_voice_search">Búsqueda por voz</string>
+    <!-- SmartSpace -->
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Mostrar gradiente en la parte superior</string>
+    <string name="workspace_gradient_summary">Activar un degradado sutil en la barra de estado</string>
+    <string name="hotseat_gradient_title">Mostrar gradiente en la parte inferior</string>
+    <string name="hotseat_gradient_summary">Activa un gradiente sutil en el dock del lanzador</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Doble toque para apagar la pantalla</string>
+    <string name="pref_sleep_gesture_summary">Toca dos veces el espacio vacío para apagar</string>
+    <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">Forzar forma en íconos antiguos</string>
+    <string name="legacy_icon_mask_summary">No permite que los iconos sean remodelados con máscara de iconos adaptativa. El pack de iconos debe ser reaplicado después de cambiar</string>
+    <!-- Grid -->
+    <string name="num_default">Por defecto</string>
+    <string name="grid_category_title">Columnas y filas</string>
+    <string name="number_of_columns_title">Cuadrícula y columnas de cajón de aplicaciones</string>
+    <string name="number_of_rows_title">Cuadrícula y filas de cajón de aplicaciones</string>
+    <string name="number_of_hotseat_title">Iconos de acceso rápido de pantalla de inicio</string>
+    <string name="state_loading">Aplicando\u2026</string>
+    <string name="app_drawer_category_title">Cajón de aplicaciones</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Aplicaciones ocultas &amp; y protegidas</string>
+    <string name="trust_apps_manager_name_dialog">Aplicaciones protegidas</string>
+    <string name="trust_apps_auth_manager">Desbloquea para gestionar las aplicaciones ocultas</string>
+    <string name="trust_apps_auth_open_app">Autenticar para abrir %1$s</string>
+    <string name="trust_apps_loading">Cargando\u2026</string>
+    <string name="trust_apps_no_lock_error">Por favor, configura un bloqueo de pantalla seguro para restringir el acceso a las aplicaciones</string>
+    <string name="trust_apps_help">Ayuda</string>
+    <string name="trust_app_summary">Ocultar &amp; proteger aplicaciones para mejor  seguridad</string>
+    <string name="trust_apps_info_hidden">Las aplicaciones ocultas y sus widgets están ocultos del launcher</string>
+    <string name="trust_apps_info_protected">Las aplicaciones protegidas requieren autenticación para ser abiertas desde el launcher</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Tamaño del icono</string>
+</resources>

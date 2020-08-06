@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 Superior OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Settings -->
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Mostra l\'app Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Quando scorri verso destra dalla schermata home</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Quando scorri verso sinistra dalla schermata home</string>
+    <!-- QSB -->
+    <string name="label_search">Ricerca</string>
+    <string name="label_voice_search">Ricerca vocale</string>
+    <!-- SmartSpace -->
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Mostra gradiente in alto</string>
+    <string name="workspace_gradient_summary">Abilitare un leggero gradiente dalla barra di stato</string>
+    <string name="hotseat_gradient_title">Mostra gradiente in basso</string>
+    <string name="hotseat_gradient_summary">Abilitare una sottile sfumatura dalla barra di stato</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Doppio tocco per spegnere lo schermo</string>
+    <string name="pref_sleep_gesture_summary">Tocca due volte sullo spazio vuoto per spegnere il dispositivo</string>
+    <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">Disabilita maschera di forma sulle icone legacy</string>
+    <string name="legacy_icon_mask_summary">Non permette che le icone siano rimodellate con una maschera di icone adattiva. Il pacchetto di icone deve essere riapplicato dopo aver attivato/disattivato</string>
+    <!-- Grid -->
+    <string name="num_default">Predefinito</string>
+    <string name="grid_category_title">Colonne e righe</string>
+    <string name="number_of_columns_title">Griglia e colonne dell\'App Drawer</string>
+    <string name="number_of_rows_title">Griglia e righe dell\'App Drawer</string>
+    <string name="number_of_hotseat_title">Icone di avvio rapido della schermata iniziale</string>
+    <string name="state_loading">Sto applicando\u2026</string>
+    <string name="app_drawer_category_title">Menù delle applicazioni</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Applicazioni nascoste &amp; protette</string>
+    <string name="trust_apps_manager_name_dialog">App protette</string>
+    <string name="trust_apps_auth_manager">Sblocca per gestire le app protette e nascoste</string>
+    <string name="trust_apps_auth_open_app">Autenticati per aprire %1$s</string>
+    <string name="trust_apps_loading">Caricamento\u2026</string>
+    <string name="trust_apps_no_lock_error">Imposta una schermata di blocco sicura per limitare l\'accesso alle app</string>
+    <string name="trust_apps_help">Aiuto</string>
+    <string name="trust_app_summary">Nascondi &amp; proteggi le app per la sicurezza moar</string>
+    <string name="trust_apps_info_hidden">Le app nascoste e i loro widget sono nascosti dal drawer</string>
+    <string name="trust_apps_info_protected">Le applicazioni protette richiedono l\'autenticazione per essere aperte dal launcher</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Dimensione Icona</string>
+</resources>
