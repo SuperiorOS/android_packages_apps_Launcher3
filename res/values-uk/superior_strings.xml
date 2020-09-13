@@ -16,16 +16,47 @@
 <resources>
     <!-- Settings -->
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Показувати додаток Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Під час гортання праворуч від головного екрану</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Під час гортання ліворуч від головного екрану</string>
     <!-- QSB -->
+    <string name="label_search">Пошук</string>
+    <string name="label_voice_search">Голосовий пошук</string>
     <!-- SmartSpace -->
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Показувати градієнт зверху</string>
+    <string name="workspace_gradient_summary">Увімкнення тонкого градієнта від рядка стану</string>
+    <string name="hotseat_gradient_title">Показувати градієнт знизу</string>
+    <string name="hotseat_gradient_summary">Увімкнення тонкого градієнта від док-панелі лаунчера</string>
     <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Подвійне натискання для блокування екрану</string>
+    <string name="pref_sleep_gesture_summary">Подвійне натискання на пусте місце для вимкнення екрану</string>
     <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">Не використовувати форму на застарілих іконках</string>
+    <string name="legacy_icon_mask_summary">Не дозволяє іконкам змінювати форму. Пакет іконок має бути заново застосований після перемикання</string>
     <!-- Grid -->
+    <string name="num_default">За замовчуванням</string>
+    <string name="grid_category_title">Колонки і рядки</string>
+    <string name="number_of_columns_title">Сітка і колонки програми</string>
+    <string name="number_of_rows_title">Сітка і стовпці програми</string>
+    <string name="number_of_hotseat_title">Іконки швидкого запуску на головному екрані</string>
+    <string name="state_loading">Застосування\u2026</string>
+    <string name="app_drawer_category_title">Меню додатків</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Приховані &amp; захищені програми</string>
+    <string name="trust_apps_manager_name_dialog">Захищений додаток</string>
+    <string name="trust_apps_auth_manager">Розблокуйте, щоб керувати прихованими та захищеними додатками</string>
+    <string name="trust_apps_auth_open_app">Автентифікуйтесь, щоб відкрити %1$s</string>
+    <string name="trust_apps_loading">Завантаження\u2026</string>
+    <string name="trust_apps_no_lock_error">Будь ласка, встановіть блокування екрану для обмеження доступу до додатків</string>
+    <string name="trust_apps_help">Допомога</string>
+    <string name="trust_app_summary">Приховати &amp; захистити програми</string>
+    <string name="trust_apps_info_hidden">Приховані додатки та їхні віджети сховані з меню додатків</string>
+    <string name="trust_apps_info_protected">Для відкриття захищених додатків з лаунчера потрібна авторизація</string>
     <!-- Icon size -->
+    <string name="icon_size_title">Розмір іконок</string>
 </resources>

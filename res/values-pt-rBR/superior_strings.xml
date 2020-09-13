@@ -16,16 +16,47 @@
 <resources>
     <!-- Settings -->
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Mostrar app do Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Ao deslizar para a direita na tela inicial</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Ao deslizar para a esquerda na tela inicial</string>
     <!-- QSB -->
+    <string name="label_search">Pesquisar</string>
+    <string name="label_voice_search">Pesquisa por voz</string>
     <!-- SmartSpace -->
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Mostrar gradiente no topo</string>
+    <string name="workspace_gradient_summary">Ativar um gradiente sutil na barra de status</string>
+    <string name="hotseat_gradient_title">Mostrar gradiente no topo</string>
+    <string name="hotseat_gradient_summary">Habilitar um gradiente sutil na dock do iniciador</string>
     <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Toque duplo para desligar a tela</string>
+    <string name="pref_sleep_gesture_summary">Toque duplo em um espaço vazio para desligar</string>
     <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">Desativar máscara de forma em ícones antigos</string>
+    <string name="legacy_icon_mask_summary">Não permite que ícones sejam reformulados com uma máscara de ícone adaptável. O pacote de ícones deve ser reaplicado após a alternância</string>
     <!-- Grid -->
+    <string name="num_default">Padrão</string>
+    <string name="grid_category_title">Colunas e linhas</string>
+    <string name="number_of_columns_title">Colunas da grade e da gaveta de aplicativos</string>
+    <string name="number_of_rows_title">Linhas da grade e da gaveta de aplicativos</string>
+    <string name="number_of_hotseat_title">Ícones de início rápido da tela inicial</string>
+    <string name="state_loading">Aplicando\u2026</string>
+    <string name="app_drawer_category_title">Gaveta de aplicativos</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ocultos &amp; Apps protegidos</string>
+    <string name="trust_apps_manager_name_dialog">Aplicativos protegidos</string>
+    <string name="trust_apps_auth_manager">Desbloquear para gerenciar os aplicativos ocultos e protegidos</string>
+    <string name="trust_apps_auth_open_app">Autenticar para abrir %1$s</string>
+    <string name="trust_apps_loading">Carregando\u2026</string>
+    <string name="trust_apps_no_lock_error">Por favor, configure uma tela de bloqueio para restringir o acesso aos aplicativos</string>
+    <string name="trust_apps_help">Ajuda</string>
+    <string name="trust_app_summary">Ocultar &amp; proteger aplicativos para segurança</string>
+    <string name="trust_apps_info_hidden">Aplicativos ocultos e seus widgets estão ocultos na gaveta</string>
+    <string name="trust_apps_info_protected">Os aplicativos protegidos requerem autenticação para serem executados a partir da launcher</string>
     <!-- Icon size -->
+    <string name="icon_size_title">Tamanho do ícone</string>
 </resources>

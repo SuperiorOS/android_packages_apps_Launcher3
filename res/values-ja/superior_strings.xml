@@ -16,16 +16,47 @@
 <resources>
     <!-- Settings -->
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Google アプリを表示</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">メインホーム画面から右にスワイプして表示</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">メインホーム画面から左にスワイプして表示</string>
     <!-- QSB -->
+    <string name="label_search">検索</string>
+    <string name="label_voice_search">音声検索</string>
     <!-- SmartSpace -->
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">上部にグラデーションを表示</string>
+    <string name="workspace_gradient_summary">ステータスバーから繊細なグラデーションを有効化する</string>
+    <string name="hotseat_gradient_title">下部にグラデーションを表示</string>
+    <string name="hotseat_gradient_summary">ランチャードックから繊細なグラデーションを有効化する</string>
     <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">ダブルタップでスリープ</string>
+    <string name="pref_sleep_gesture_summary">空白領域をダブルタップしてスリープする</string>
     <!-- Icon mask -->
+    <string name="legacy_icon_mask_title">旧式アイコンの形状マスクの無効化</string>
+    <string name="legacy_icon_mask_summary">アダプティブアイコンマスクでアイコンを再形整することはできません。切り替え後にアイコンパックを再適用する必要があります。</string>
     <!-- Grid -->
+    <string name="num_default">既定</string>
+    <string name="grid_category_title">列数と行数</string>
+    <string name="number_of_columns_title">アプリドロワーの列数</string>
+    <string name="number_of_rows_title">アプリドロワーの行数</string>
+    <string name="number_of_hotseat_title">ホーム画面のクイック起動アイコン</string>
+    <string name="state_loading">適用中\u2026</string>
+    <string name="app_drawer_category_title">アプリドロワー</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">非表示・保護アプリ</string>
+    <string name="trust_apps_manager_name_dialog">保護されたアプリ</string>
+    <string name="trust_apps_auth_manager">ロック解除して非表示と保護アプリを管理する</string>
+    <string name="trust_apps_auth_open_app">認証して %1$s を開く</string>
+    <string name="trust_apps_loading">読み込み中...</string>
+    <string name="trust_apps_no_lock_error">アプリのアクセスを制限するためにロック画面の保護をセットアップして下さい</string>
+    <string name="trust_apps_help">ヘルプ</string>
+    <string name="trust_app_summary">セキュリティ保護のためアプリを非表示・保護する</string>
+    <string name="trust_apps_info_hidden">非表示アプリとそのウィジェットはドロワーから非表示になります</string>
+    <string name="trust_apps_info_protected">保護アプリはランチャーから開くのに認証が必要です</string>
     <!-- Icon size -->
+    <string name="icon_size_title">アイコンサイズ</string>
 </resources>
