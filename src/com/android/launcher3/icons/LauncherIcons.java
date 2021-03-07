@@ -25,12 +25,13 @@ import com.android.launcher3.InvariantDeviceProfile;
 import com.android.launcher3.graphics.IconShape;
 import com.android.launcher3.graphics.LauncherPreviewRenderer;
 import com.android.launcher3.util.Themes;
+import com.android.launcher3.superior.icon.SuperiorIconFactory;
 
 /**
  * Wrapper class to provide access to {@link BaseIconFactory} and also to provide pool of this class
  * that are threadsafe.
  */
-public class LauncherIcons extends BaseIconFactory implements AutoCloseable {
+public class LauncherIcons extends SuperiorIconFactory implements AutoCloseable {
 
     private static final Object sPoolSync = new Object();
     private static LauncherIcons sPool;
