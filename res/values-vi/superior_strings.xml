@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Hiển thị ứng dụng Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Khi bạn vuốt sang trái tại Màn hình chính</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Khi bạn vuốt sang phải tại Màn hình chính</string>
+    <!-- SmartSpace -->
+    <string name="smartspace_preferences">Tùy chọn</string>
+    <string name="show_quickspace_title">Nhắc nhở công việc</string>
+    <string name="show_quickspace_summary">Hiển thị ở đầu Màn hình chính của bạn</string>
+    <string name="state_loading">Áp dụng\u2026</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Cử chỉ chạm hai lần</string>
+    <string name="pref_dt_gesture_summary">Nhấn đúp vào khoảng trống để tắt màn hình</string>
+    <string name="allow_swipe_down_clearall_title">Vuốt xuống để xóa tất cả tác vụ</string>
+    <string name="allow_swipe_down_clearall_desc">Cho phép xóa tất cả các tác vụ gần đây trong màn hình tổng quan bằng cách vuốt xuống</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Các ứng dụng được ẩn</string>
+    <string name="trust_apps_auth_manager">Mở khóa để quản lý các ứng dụng ẩn</string>
+    <string name="trust_apps_loading">Đang tải\u2026</string>
+    <string name="trust_apps_no_lock_error">Vui lòng thiết lập màn hình khóa an toàn để hạn chế quyền truy cập ứng dụng</string>
+    <string name="trust_apps_help">Trợ giúp</string>
+    <string name="trust_app_summary">Ẩn ứng dụng trong drawer</string>
+    <string name="trust_apps_info_hidden">Các ứng dụng ẩn và các tiện ích con của chúng được ẩn khỏi ngăn kéo</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Đề xuất</string>
+    <string name="suggestion_pref_screen_desc">Đối với tất cả các ứng dụng &amp; Đề xuất màn hình chính</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">Cho phép hai dòng nhãn trên màn hình chính</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+    <!-- Icon size -->
+    <string name="icon_size_title">Cỡ biểu tượng</string>
+</resources>

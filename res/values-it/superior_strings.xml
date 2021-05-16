@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Mostra l\'app Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Quando scorri a sinistra dalla schermata Home principale</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Quando scorri a destra dalla schermata principale</string>
+    <!-- SmartSpace -->
+    <string name="smartspace_preferences">Preferenze</string>
+    <string name="show_quickspace_title">Riepilogo</string>
+    <string name="show_quickspace_summary">Mostra nella parte superiore della tua schermata Home</string>
+    <string name="state_loading">Applicando\u2026</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Gesto doppio tocco</string>
+    <string name="pref_dt_gesture_summary">Tocca due volte sullo spazio vuoto per spegnere lo schermo</string>
+    <string name="allow_swipe_down_clearall_title">Scorri verso il basso per cancellare tutti i recenti</string>
+    <string name="allow_swipe_down_clearall_desc">Abilita per chiudere tutte le app recenti nella schermata panoramica scorrendo verso il basso</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_loading">Caricamento\u2026</string>
+    <string name="trust_apps_no_lock_error">Imposta una schermata di blocco sicura per limitare l\'accesso alle app</string>
+    <string name="trust_apps_help">Aiuto</string>
+    <string name="trust_apps_info_hidden">Le app nascoste e i relativi widget sono nascosti dal cassetto</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Suggerimenti</string>
+    <string name="suggestion_pref_screen_desc">Per tutte le app &amp; suggerimenti sulla schermata Home</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">Consenti due etichette di riga sul desktop</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+    <!-- Icon size -->
+    <string name="icon_size_title">Dimensione icona</string>
+</resources>

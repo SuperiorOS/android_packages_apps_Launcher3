@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Показать приложение Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">При свайпе влево от главного домашнего экрана</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">При свайпе вправо от главного домашнего экрана</string>
+    <!-- SmartSpace -->
+    <string name="smartspace_preferences">Предпочтения</string>
+    <string name="show_quickspace_title">Самое Главное</string>
+    <string name="show_quickspace_summary">Показывать в верхней части экрана</string>
+    <string name="state_loading">Применение\u2026</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Жесты двойного касания</string>
+    <string name="pref_dt_gesture_summary">Двойное нажатие на пустом месте для выключения экрана</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Скрытые приложения</string>
+    <string name="trust_apps_auth_manager">Разблокировать для управления скрытыми приложениями</string>
+    <string name="trust_app_summary">Скрыть приложения из меню приложений</string>
+    <!-- Suggestions -->
+    <!-- Two line labels -->
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+    <!-- Icon size -->
+</resources>

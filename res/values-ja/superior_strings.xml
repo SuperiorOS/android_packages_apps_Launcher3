@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Google アプリを表示</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">メインホーム画面から左にスワイプして表示</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">メインホーム画面から右にスワイプして表示</string>
+    <!-- SmartSpace -->
+    <string name="smartspace_preferences">設定</string>
+    <string name="show_quickspace_title">At A Glance</string>
+    <string name="show_quickspace_summary">ホーム画面の上部に表示する</string>
+    <string name="state_loading">適用中\u2026</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">ダブルタップジェスチャー</string>
+    <string name="pref_dt_gesture_summary">空白領域をダブルタップして画面を消灯する</string>
+    <string name="allow_swipe_down_clearall_title">下スワイプでアプリ履歴を全消去</string>
+    <string name="allow_swipe_down_clearall_desc">下にスワイプして一覧画面の全てのアプリ履歴を消去する</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">非表示のアプリ</string>
+    <string name="trust_apps_auth_manager">非表示のアプリを管理するにはロックを解除して下さい</string>
+    <string name="trust_apps_loading">読み込み中\u2026</string>
+    <string name="trust_apps_no_lock_error">アプリのアクセスを制限するためにロック画面の保護をセットアップして下さい</string>
+    <string name="trust_apps_help">ヘルプ</string>
+    <string name="trust_app_summary">ドロワーからアプリを非表示にする</string>
+    <string name="trust_apps_info_hidden">非表示アプリとそのウィジェットはドロワーから非表示になります</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">提案</string>
+    <string name="suggestion_pref_screen_desc">全てのアプリとホーム画面の候補</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">デスクトップ上で二行の食べるを許可</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+    <!-- Icon size -->
+    <string name="icon_size_title">アイコンサイズ</string>
+</resources>
