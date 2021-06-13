@@ -29,14 +29,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Gestures -->
     <string name="pref_dt_gesture_title">Жесты двойного касания</string>
     <string name="pref_dt_gesture_summary">Двойное нажатие на пустом месте для выключения экрана</string>
+    <string name="allow_swipe_down_clearall_title">Проведите вниз, чтобы удалить все недавние</string>
+    <string name="allow_swipe_down_clearall_desc">Включите, чтобы удалить все недавние приложения на обзорном экране, проведя вниз</string>
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Скрытые приложения</string>
     <string name="trust_apps_auth_manager">Разблокировать для управления скрытыми приложениями</string>
+    <string name="trust_apps_loading">Загрузка\u2026</string>
+    <string name="trust_apps_no_lock_error">Пожалуйста, установите блокировку экрана для ограничения доступа к приложениям</string>
+    <string name="trust_apps_help">Помощь</string>
     <string name="trust_app_summary">Скрыть приложения из меню приложений</string>
+    <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты не отображаются в меню приложений</string>
     <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Рекомендации</string>
+    <string name="suggestion_pref_screen_desc">Для предложений всех приложений и главного экрана</string>
     <!-- Two line labels -->
+    <string name="two_line_labels">Разрешить две строки на рабочем столе</string>
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Preference default value -->
     <!-- Icon size -->
+    <string name="icon_size_title">Размер значков</string>
 </resources>

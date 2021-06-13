@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="suggestion_pref_screen_title">提案</string>
     <string name="suggestion_pref_screen_desc">全てのアプリとホーム画面の候補</string>
     <!-- Two line labels -->
-    <string name="two_line_labels">デスクトップ上で二行の食べるを許可</string>
+    <string name="two_line_labels">デスクトップ上で2行のラベルを許可</string>
     <!-- AppInfo -->
     <!-- Used for preference height loading. -->
     <!-- Preference default value -->
