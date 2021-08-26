@@ -70,4 +70,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <!-- Icon size -->
     <string name="icon_size_title">Icon size</string>
+
+    <!-- Recents Memory -->
+    <string name="pref_recents_show_memory_title">Show Free RAM in recents</string>
+    <string name="pref_recents_show_memory_summary">Show available free RAM in recents view</string>
 </resources>

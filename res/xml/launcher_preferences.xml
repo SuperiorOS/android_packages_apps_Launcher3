@@ -98,6 +98,13 @@
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app"/>
 
+    <SwitchPreference
+        android:key="pref_recents_show_memory"
+        android:defaultValue="true"
+        android:persistent="true"
+        android:summary="@string/pref_recents_show_memory_summary"
+        android:title="@string/pref_recents_show_memory_title"/>
+
     <androidx.preference.PreferenceScreen
         android:persistent="false"
         android:title="@string/suggestion_pref_screen_title"
