@@ -32,9 +32,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_title">Scorri verso il basso per cancellare tutti i recenti</string>
     <string name="allow_swipe_down_clearall_desc">Abilita per chiudere tutte le app recenti nella schermata panoramica scorrendo verso il basso</string>
     <!-- Trust apps -->
+    <string name="trust_apps_manager_name">App nascoste</string>
+    <string name="trust_apps_auth_manager">Sblocca per gestire le app nascoste</string>
     <string name="trust_apps_loading">Caricamento\u2026</string>
     <string name="trust_apps_no_lock_error">Imposta una schermata di blocco sicura per limitare l\'accesso alle app</string>
     <string name="trust_apps_help">Aiuto</string>
+    <string name="trust_app_summary">Nascondi app dal cassetto</string>
     <string name="trust_apps_info_hidden">Le app nascoste e i relativi widget sono nascosti dal cassetto</string>
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Suggerimenti</string>

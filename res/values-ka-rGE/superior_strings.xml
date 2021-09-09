@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Google-ის პროგრამის გამოჩენა</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">მთავარ ეკრანზე თითის მარცხნივ გადასმისას</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">მთავარ ეკრანზე თითის მარჯვნივ გადასმისას</string>
+    <!-- SmartSpace -->
+    <string name="show_quickspace_summary">გამოჩნდეს მთავარ ეკრანზე</string>
+    <string name="state_loading">ყენდება\u2026</string>
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">ორმაგი დარტყმის ჟესტი</string>
+    <string name="pref_dt_gesture_summary">დაარტყით ორმაგად თავისუფალ ადგილას ეკრანის გასათიშად</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">დამალული აპები</string>
+    <string name="trust_apps_auth_manager">განბლოკეთ რათა მართოთ დამალული აპლიკაციები</string>
+    <string name="trust_apps_loading">მიმდინარეობს ჩატვირთვა\u2026</string>
+    <string name="trust_apps_no_lock_error">გთხოვთ, დააყენოთ ჩამკეტი ეკრანი, აპთან წვდომის შესაზღუდად</string>
+    <string name="trust_apps_help">დახმარება</string>
+    <string name="trust_app_summary">დამალეთ აპები უჯრებიდან</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">შემოთავაზებული</string>
+    <!-- Two line labels -->
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
+    <!-- Icon size -->
+    <string name="icon_size_title">ხატულას ზომა</string>
+</resources>
