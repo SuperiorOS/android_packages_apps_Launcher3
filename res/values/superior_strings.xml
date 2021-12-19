@@ -33,4 +33,7 @@
     <string name="pref_sleep_gesture_title">Double tap to sleep</string>
     <string name="pref_sleep_gesture_summary">Double tap on empty space for power-off</string>
 
+    <string name="pref_suggestions_title">Suggestions</string>
+    <string name="pref_suggestions_summary">For all apps and Home screen</string>
+
 </resources>
