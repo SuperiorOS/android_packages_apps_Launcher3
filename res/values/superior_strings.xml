@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD:res/values/superior_strings.xml
 <!-- Copyright (C) 2022 SuperiorOS Project
-=======
-<!--
-     Copyright (C) 2016-2023 crDroid Android Project
->>>>>>> 5464a714e7 (Launcher3: Update default workspace):res/values/cr_strings.xml
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -109,4 +104,9 @@
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">Kill</string>
     <string name="recents_app_killed">App killed</string>
+
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Search</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Voice search</string>
 </resources>
