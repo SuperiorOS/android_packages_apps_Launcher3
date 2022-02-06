@@ -39,12 +39,13 @@ import com.android.launcher3.AbstractFloatingView;
 import com.android.launcher3.CellLayout;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
 import com.android.launcher3.Workspace;
 import com.android.launcher3.dragndrop.DragLayer;
 import com.android.launcher3.testing.TestLogging;
 import com.android.launcher3.testing.TestProtocol;
 import com.android.launcher3.views.OptionsPopupView;
+
+import com.android.launcher3.Utilities;
 
 /**
  * Helper class to handle touch on empty space in workspace and show options popup on long press
@@ -68,30 +69,27 @@ public class WorkspaceTouchListener extends GestureDetector.SimpleOnGestureListe
     private final Workspace mWorkspace;
     private final PointF mTouchDownPoint = new PointF();
     private final float mTouchSlop;
-
+    private boolean mDoubleTapEnabled;
     private int mLongPressState = STATE_CANCELLED;
 
     private final PowerManager mPm;
 
     private final GestureDetector mGestureDetector;
 
-    private final Context mContext;
-
     public WorkspaceTouchListener(Launcher launcher, Workspace workspace) {
         mLauncher = launcher;
         mWorkspace = workspace;
-        mContext = workspace.getContext();
         // Use twice the touch slop as we are looking for long press which is more
         // likely to cause movement.
         mTouchSlop = 2 * ViewConfiguration.get(launcher).getScaledTouchSlop();
-        mPm = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
-        mGestureDetector = new GestureDetector(mContext, this);
+        mPm = (PowerManager) workspace.getContext().getSystemService(Context.POWER_SERVICE);
+        mGestureDetector = new GestureDetector(workspace.getContext(), this);
+        mDoubleTapEnabled = Utilities.isDoubleTapGestureEnabled(workspace.getContext());
     }
 
     @Override
     public boolean onTouch(View view, MotionEvent ev) {
         mGestureDetector.onTouchEvent(ev);
-
         int action = ev.getActionMasked();
         if (action == ACTION_DOWN) {
             // Check if we can handle long press.
@@ -193,8 +191,9 @@ public class WorkspaceTouchListener extends GestureDetector.SimpleOnGestureListe
 
     @Override
     public boolean onDoubleTap(MotionEvent event) {
-        if (Utilities.useSleepGesture(mContext))
+        if (mDoubleTapEnabled) {
             mPm.goToSleep(event.getEventTime());
+        }
         return true;
     }
 }
