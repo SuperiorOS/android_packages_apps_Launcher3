@@ -181,8 +181,9 @@ public class ThemedLocalColorExtractor extends LocalColorExtractor implements
             /* referenceWhite */ CieXyzAbs.fromRel(Illuminants.D65, luminance)
         );
         ColorScheme targets = new MaterialYouTargets(getChroma(), false, cond);
+        @ColorInt int customColor = Settings.Secure.getInt(mContext.getContentResolver(), "monet_engine_custom_color", 0);
         @ColorInt int colorOverride = Settings.Secure.getInt(mContext.getContentResolver(), "monet_engine_color_override", -1);
-        Color color = new Srgb(colorOverride != -1 ? colorOverride : colors.getPrimaryColor().toArgb());
+        Color color = new Srgb((colorOverride != -1 && customColor != 0)  ? colorOverride : colors.getPrimaryColor().toArgb());
         ColorScheme colorScheme = new DynamicColorScheme(targets, color, getChroma(), cond, true);
 
         addColorsToArray(colorScheme.getAccent1(), ACCENT1_RES, colorRes);
