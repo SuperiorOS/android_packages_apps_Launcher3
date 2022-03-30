@@ -113,4 +113,8 @@
     <string name="pref_allow_phone_taskbar_desc">For opening and switching apps anywhere</string>
     <string name="pref_allow_phone_overview_grid">Show grid of recent apps</string>
     <string name="pref_allow_phone_overview_grid_desc">More recent apps in Overview</string>
+
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">All apps themed icons</string>
+    <string name="pref_themed_icons_summary">Toggle to switch between homescreen dock and all apps themed icons</string>
 </resources>
