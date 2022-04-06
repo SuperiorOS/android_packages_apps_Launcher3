@@ -28,6 +28,8 @@ import static com.android.launcher3.LauncherAnimUtils.SCALE_PROPERTY;
 import static com.android.launcher3.LauncherAnimUtils.SUCCESS_TRANSITION_PROGRESS;
 import static com.android.launcher3.LauncherAnimUtils.VIEW_ALPHA;
 import static com.android.launcher3.LauncherState.BACKGROUND_APP;
+import static com.android.launcher3.LauncherState.OVERVIEW;
+import static com.android.launcher3.LauncherState.OVERVIEW_ACTIONS;
 import static com.android.launcher3.QuickstepTransitionManager.RECENTS_LAUNCH_DURATION;
 import static com.android.launcher3.Utilities.EDGE_NAV_BAR;
 import static com.android.launcher3.Utilities.mapToRange;
@@ -2309,6 +2311,9 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
     }
 
     private void animateActionsViewIn() {
+        if ((OVERVIEW.getVisibleElements(null) & OVERVIEW_ACTIONS) == 0)
+            return;
+
         ObjectAnimator anim = ObjectAnimator.ofFloat(
                 mActionsView.getVisibilityAlpha(), MultiValueAlpha.VALUE, 0, 1);
         anim.setDuration(TaskView.SCALE_ICON_DURATION);
