@@ -2930,8 +2930,13 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
                 }
 
                 if (i == dismissedIndex + 1 ||
-                        dismissedIndex == taskCount -1 && i == dismissedIndex - 1)
-                     anim.setFloat(child, SCALE_PROPERTY, dismissedTaskView.getScaleX(), LINEAR);
+                        dismissedIndex == taskCount -1 && i == dismissedIndex - 1) {
+                    if (child.getScaleX() <= dismissedTaskView.getScaleX())
+                        anim.setFloat(child, SCALE_PROPERTY,
+                            dismissedTaskView.getScaleX(), LINEAR);
+                    else
+                        anim.setFloat(child, SCALE_PROPERTY, 1f, LINEAR);
+                }
 
                 int scrollDiff = newScroll[i] - oldScroll[i] + offset;
                 if (scrollDiff != 0) {
