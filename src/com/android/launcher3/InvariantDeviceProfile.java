@@ -314,6 +314,9 @@ public class InvariantDeviceProfile implements SharedPreferences.OnSharedPrefere
                 SystemUiProxy.INSTANCE.get(mContext).setTaskbarEnabled(enabled);
                 onConfigChanged(mContext, true);
                 break;
+            case DeviceProfile.KEY_PHONE_OVERVIEW_GRID:
+                onConfigChanged(mContext, false);
+                break;
         }
     }
 
