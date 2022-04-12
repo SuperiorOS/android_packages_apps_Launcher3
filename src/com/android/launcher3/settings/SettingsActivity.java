@@ -20,12 +20,8 @@ import static androidx.core.view.accessibility.AccessibilityNodeInfoCompat.ACTIO
 
 import static com.android.launcher3.states.RotationHelper.ALLOW_ROTATION_PREFERENCE_KEY;
 
-import static com.android.launcher3.OverlayCallbackImpl.KEY_ENABLE_MINUS_ONE;
-
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.MenuItem;
@@ -52,6 +48,7 @@ import com.android.launcher3.LauncherFiles;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.config.FeatureFlags;
+import com.android.launcher3.superior.SuperiorUtils;
 import com.android.launcher3.model.WidgetsModel;
 import com.android.launcher3.states.RotationHelper;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
@@ -86,6 +83,9 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
     static final String EXTRA_FRAGMENT = ":settings:fragment";
     @VisibleForTesting
     static final String EXTRA_FRAGMENT_ARGS = ":settings:fragment_args";
+
+    private static final String KEY_MINUS_ONE = "pref_enable_minus_one";
+    private static final String SEARCH_PACKAGE = "com.google.android.googlequicksearchbox";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -190,10 +190,6 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
         private boolean mPreferenceHighlighted = false;
         private Preference mDeveloperOptionPref;
 
-        protected static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
-
-        private Preference mShowGoogleAppPref;
-
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
             final Bundle args = getArguments();
@@ -276,10 +272,8 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
                     mDeveloperOptionPref = preference;
                     return updateDeveloperOption();
 
-                case KEY_ENABLE_MINUS_ONE:
-                    mShowGoogleAppPref = preference;
-                    updateIsGoogleAppEnabled();
-                    return true;
+                case KEY_MINUS_ONE:
+                    return SuperiorUtils.isPackageEnabled(getActivity(), SEARCH_PACKAGE);
             }
 
             return true;
@@ -303,20 +297,6 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
             return showPreference;
         }
 
-        public static boolean isGSAEnabled(Context context) {
-            try {
-                return context.getPackageManager().getApplicationInfo(GSA_PACKAGE, 0).enabled;
-            } catch (PackageManager.NameNotFoundException e) {
-                return false;
-            }
-        }
-
-        private void updateIsGoogleAppEnabled() {
-            if (mShowGoogleAppPref != null) {
-                mShowGoogleAppPref.setEnabled(isGSAEnabled(getContext()));
-            }
-        }
-
         @Override
         public void onResume() {
             super.onResume();
@@ -332,7 +312,6 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
                     requestAccessibilityFocus(getListView());
                 }
             }
-            updateIsGoogleAppEnabled();
         }
 
         private PreferenceHighlighter createHighlighter() {

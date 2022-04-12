@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.launcher3.uioverrides;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 
 import com.android.launcher3.Launcher;
 import com.android.launcher3.Utilities;
 import com.android.systemui.plugins.shared.LauncherOverlayManager;
 import com.android.systemui.plugins.shared.LauncherOverlayManager.LauncherOverlay;
+import com.android.systemui.plugins.shared.LauncherOverlayManager.LauncherOverlayCallbacks;
 
 import com.google.android.libraries.gsa.launcherclient.LauncherClient;
 import com.google.android.libraries.gsa.launcherclient.LauncherClientCallbacks;
@@ -40,9 +40,9 @@ import java.io.PrintWriter;
  */
 public class OverlayCallbackImpl
         implements LauncherOverlay, LauncherClientCallbacks, LauncherOverlayManager,
-        OnSharedPreferenceChangeListener {
+        SharedPreferences.OnSharedPreferenceChangeListener {
 
-    public static final String KEY_ENABLE_MINUS_ONE = "pref_enable_minus_one";
+    private static final String KEY_ENABLE_MINUS_ONE = "pref_enable_minus_one";
 
     private final Launcher mLauncher;
     private final LauncherClient mClient;
@@ -173,7 +173,6 @@ public class OverlayCallbackImpl
     public void setOverlayCallbacks(LauncherOverlayCallbacks callbacks) {
         mLauncherOverlayCallbacks = callbacks;
     }
-
 
     private LauncherClient.ClientOptions getClientOptions(SharedPreferences prefs) {
         return new LauncherClient.ClientOptions(
