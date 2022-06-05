@@ -307,6 +307,7 @@ public class InvariantDeviceProfile implements SharedPreferences.OnSharedPrefere
             case KEY_FONT_SIZE:
             case KEY_MAX_LINES:
             case IconPackStore.KEY_ICON_PACK:
+            case DeviceProfile.KEY_ROW_HEIGHT:
                 onConfigChanged(mContext);
                 break;
             case DeviceProfile.KEY_PHONE_TASKBAR:

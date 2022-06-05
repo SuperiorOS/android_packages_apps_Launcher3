@@ -117,4 +117,7 @@
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">All apps themed icons</string>
     <string name="pref_themed_icons_summary">Toggle to switch between homescreen dock and all apps themed icons</string>
+
+    <!-- Row Height -->
+    <string name="row_height_title">Row height</string>
 </resources>
