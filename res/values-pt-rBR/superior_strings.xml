@@ -62,4 +62,8 @@
     <string name="icon_pack_no_market">Não há uma loja de aplicativos disponível</string>
     <string name="app_info_subtext">Deslize para baixo para fechar as informações do aplicativo</string>
     <string name="app_info_source_system">Sistema</string>
+    <string name="pref_allow_phone_taskbar">Usar Taskbar</string>
+    <string name="pref_allow_phone_taskbar_desc">Para abrir e alternar entre aplicativos em quaisquer lugar</string>
+    <string name="pref_allow_phone_overview_grid">Mostrar a grade de aplicativos</string>
+    <string name="pref_allow_phone_overview_grid_desc">Mais aplicativos na tela de recentes</string>
 </resources>

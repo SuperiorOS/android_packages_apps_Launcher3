@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2022 The SuperiorOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">設定</string>
+    <string name="home_category_title">ホーム画面</string>
+    <string name="home_category_summary">Google Now パネルやその他の設定</string>
+    <string name="icons_category_title">アイコン</string>
+    <string name="icons_category_summary">アイコンサイズなどを設定する</string>
+    <string name="app_drawer_category_title">アプリドロワー</string>
+    <string name="app_drawer_category_summary">アプリドロワーを編集する</string>
+    <string name="misc_category_title">その他</string>
+    <string name="misc_category_summary">その他のオプション</string>
+    <string name="dev_options_title">開発者オプション</string>
+    <string name="dev_options_desc">非表示の機能を自己責任で有効にする</string>
+    <string name="general_category_title">一般</string>
+    <string name="interface_category_title">インターフェース</string>
+    <string name="search_bar_category_title">検索バー</string>
+    <string name="settings_lock_layout_title">レイアウトをロック</string>
+    <string name="settings_lock_layout_summary_on">アイコンやウィジェットの追加、削除、移動を許可しない。</string>
+    <string name="settings_lock_layout_summary_off">アイコンやウィジェットの追加、削除、移動を許可する。</string>
+    <string name="settings_edit_widgets_error">ウィジェットをホーム画面に追加できません</string>
+    <string name="desktop_show_labels">デスクトップでアイコンラベルを表示</string>
+    <string name="drawer_show_labels">ドロワーでアイコンラベルを表示</string>
+    <string name="title_show_google_app">スワイプして Google アプリにアクセス</string>
+    <string name="msg_minus_one_on_left">メインホーム画面から左にスワイプして表示する</string>
+    <string name="msg_minus_one_on_right">メインホーム画面から右にスワイプして表示する</string>
+    <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">既定</string>
+    <string name="custom_seekbar_default_value_to_set">既定値: <xliff:g id="v">%s</xliff:g>\n長押しで設定</string>
+    <string name="custom_seekbar_default_value_is_set">既定値が設定されています</string>
+    <string name="icon_size_title">アイコンサイズ</string>
+    <string name="font_size_title">フォントサイズ</string>
+    <string name="icon_max_lines_title">アプリラベルの最大行数</string>
+    <string name="pref_sleep_gesture_title">ダブルタップでスリープ</string>
+    <string name="pref_sleep_gesture_summary">空白領域をダブルタップしてスリープする</string>
+    <string name="label_search">検索</string>
+    <string name="label_lens">Google レンズ</string>
+    <string name="label_voice_search">音声検索</string>
+    <string name="dock_search_title">Google 検索バー</string>
+    <string name="dock_search_summary">ドックの下部に検索バーを表示する</string>
+    <string name="dock_theme_title">アイコンのテーマ</string>
+    <string name="dock_theme_summary">検索バーにアイコンのテーマを使用する</string>
+    <string name="search_radius_title">角の半径</string>
+    <string name="action_lens">レンズ</string>
+    <string name="show_statusbar_title">ステータスバー</string>
+    <string name="icon_pack_title">アイコンパック</string>
+    <string name="icon_pack_default_label">既定</string>
+    <string name="icon_pack_add">追加でインストール</string>
+    <string name="icon_pack_no_market">利用可能なアプリストアがありません</string>
+    <string name="app_info_subtext">下にスワイプしてアプリ情報を閉じます</string>
+    <string name="app_info_source_system">システム</string>
+    <string name="pref_allow_phone_taskbar">タスクバーを使用</string>
+    <string name="pref_allow_phone_taskbar_desc">アプリをどこでも開いたり切り替えたりするために使用されます</string>
+    <string name="pref_allow_phone_overview_grid">アプリ履歴のグリッドを表示</string>
+    <string name="pref_allow_phone_overview_grid_desc">概要に更に多くアプリ履歴を表示する</string>
+</resources>
