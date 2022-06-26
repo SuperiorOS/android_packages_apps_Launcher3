@@ -56,4 +56,16 @@
     <string name="search_radius_title">Künc radiusu</string>
     <string name="action_lens">Lens</string>
     <string name="show_statusbar_title">Vəziyyət sətri</string>
+    <string name="icon_pack_title">Nişan paketi</string>
+    <string name="icon_pack_default_label">İlkin</string>
+    <string name="icon_pack_add">Daha çox quraşdır</string>
+    <string name="icon_pack_no_market">Əlçatan tətbiq mağazası yoxdur</string>
+    <string name="app_info_subtext">Tətbiq məlumatlarını bağlamaq üçün aşağı sürüşdür</string>
+    <string name="app_info_source_system">Sistem</string>
+    <string name="pref_allow_phone_taskbar">Tapşırıq sətrini istifadə et</string>
+    <string name="pref_allow_phone_taskbar_desc">Tətbiqləri hər hansısa bir yerdə açmaq və dəyişdirmək üçün</string>
+    <string name="pref_allow_phone_overview_grid">Son tətbiqləri tor şəklində göstər</string>
+    <string name="pref_allow_phone_overview_grid_desc">Daha çox yeni tətbiq \"İcmal\"da</string>
+    <string name="pref_themed_icons_title">Bütün tətbiqlərdə temalı nişanlar</string>
+    <string name="pref_themed_icons_summary">\"Əsas ekran yuvası\" və \"bütün tətbiqlərdə temalı nişanlar\" arasında keçid etmək üçün tənzimləyin</string>
 </resources>
