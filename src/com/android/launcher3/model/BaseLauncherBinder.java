@@ -82,7 +82,7 @@ public abstract class BaseLauncherBinder {
     public void bindWorkspace(boolean incrementBindId) {
         if (FeatureFlags.ENABLE_WORKSPACE_LOADING_OPTIMIZATION.get()) {
             DisjointWorkspaceBinder workspaceBinder =
-                    initWorkspaceBinder(incrementBindId, mBgDataModel.collectWorkspaceScreens());
+                    initWorkspaceBinder(incrementBindId, mBgDataModel.collectWorkspaceScreens(mApp.getContext()));
             workspaceBinder.bindCurrentWorkspacePages();
             workspaceBinder.bindOtherWorkspacePages();
         } else {
