@@ -119,7 +119,7 @@ public abstract class BaseLauncherBinder {
         synchronized (mBgDataModel) {
             workspaceItems.addAll(mBgDataModel.workspaceItems);
             appWidgets.addAll(mBgDataModel.appWidgets);
-            orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens());
+            orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens(mApp.getContext()));
             mBgDataModel.extraItems.forEach(extraItems::add);
             if (incrementBindId) {
                 mBgDataModel.lastBindId++;

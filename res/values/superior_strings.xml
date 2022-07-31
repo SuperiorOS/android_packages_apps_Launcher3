@@ -161,4 +161,9 @@
 
     <!-- Shake Clear Recents -->
     <string name="recents_shake_clear_all_title">Shake phone to clear all tasks</string>
+
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">At a Glance</string>
+    <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
+
 </resources>
