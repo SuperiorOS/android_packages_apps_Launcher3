@@ -54,6 +54,8 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.states.RotationHelper;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 
+import com.android.systemui.shared.system.BlurUtils;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -273,6 +275,9 @@ public class SettingsMisc extends CollapsingToolbarBaseActivity
                 case DEVELOPER_OPTIONS_KEY:
                     mDeveloperOptionPref = preference;
                     return updateDeveloperOption();
+
+                case Utilities.KEY_BLUR_DEPTH:
+                    return BlurUtils.supportsBlursOnWindows();
             }
 
             return true;
