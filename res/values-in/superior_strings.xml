@@ -21,6 +21,8 @@
     <string name="icons_category_summary">Atur ukuran ikon dan lainnya</string>
     <string name="app_drawer_category_title">Laci aplikasi</string>
     <string name="app_drawer_category_summary">Kustomisasi laci aplikasi Anda</string>
+    <string name="recents_category_title">Baru-baru ini</string>
+    <string name="recents_category_summary">Ubah layar ikhtisar</string>
     <string name="misc_category_title">Lain-lain</string>
     <string name="misc_category_summary">Opsi lainnya</string>
     <string name="dev_options_title">Opsi pengembang</string>
@@ -28,6 +30,7 @@
     <string name="general_category_title">Umum</string>
     <string name="interface_category_title">Antarmuka</string>
     <string name="search_bar_category_title">Bilah pencarian</string>
+    <string name="actions_category_title">Tindakan cepat</string>
     <string name="settings_lock_layout_title">Kunci tata letak</string>
     <string name="settings_lock_layout_summary_on">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
     <string name="settings_lock_layout_summary_off">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
@@ -64,8 +67,20 @@
     <string name="app_info_source_system">Sistem</string>
     <string name="pref_allow_phone_taskbar">Gunakan bilah tugas</string>
     <string name="pref_allow_phone_taskbar_desc">Untuk membuka dan beralih aplikasi di mana saja</string>
-    <string name="pref_allow_phone_overview_grid">Tampilkan kisi aplikasi baru-baru ini</string>
+    <string name="pref_allow_phone_overview_grid">Gaya kisi</string>
     <string name="pref_allow_phone_overview_grid_desc">Lebih banyak aplikasi baru-baru ini dalam Ikhtisar</string>
     <string name="pref_themed_icons_title">Semua ikon aplikasi bertema</string>
     <string name="pref_themed_icons_summary">Tombol untuk beralih antara dok layar beranda dan semua ikon aplikasi bertema</string>
+    <string name="row_height_title">Tinggi baris</string>
+    <string name="show_top_shadow">Bayangan atas</string>
+    <string name="allow_wallpaper_scrolling">Menggulir wallpaper</string>
+    <string name="allow_wallpaper_scrolling_desc">Efek pengguliran wallpaper untuk beberapa layar</string>
+    <string name="suggestion_pref_screen_title">Saran</string>
+    <string name="suggestion_pref_screen_desc">Untuk Semua Aplikasi &amp; saran Layar Utama</string>
+    <string name="allow_wallpaper_zooming">Pembesaran wallpaper</string>
+    <string name="allow_wallpaper_zooming_desc">Perbesar atau perkecil wallpaper saat menggunakan laci atau aplikasi terbaru</string>
+    <string name="background_opacity_title">Opasitas latar belakang</string>
+    <string name="recents_screenshot_title">Tangkapan layar</string>
+    <string name="recents_clear_all_title">Hapus semua</string>
+    <string name="recents_lens_title">Lens</string>
 </resources>
