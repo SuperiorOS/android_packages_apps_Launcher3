@@ -21,6 +21,7 @@
     <string name="icons_category_summary">Nişan ölçüsünü və daha çoxunu tənzimləyin</string>
     <string name="app_drawer_category_title">Tətbiq siyirməsi</string>
     <string name="app_drawer_category_summary">Tətbiq siyirməsini özəlləşdirin</string>
+    <string name="recents_category_title">Sonuncular</string>
     <string name="misc_category_title">Müxtəlif</string>
     <string name="misc_category_summary">Digər seçimlər</string>
     <string name="dev_options_title">Tərtibatçı seçimləri</string>
@@ -28,6 +29,7 @@
     <string name="general_category_title">Ümumi</string>
     <string name="interface_category_title">İnterfeys</string>
     <string name="search_bar_category_title">Axtarış sətri</string>
+    <string name="actions_category_title">Cəld əməliyyatlar</string>
     <string name="settings_lock_layout_title">Düzülüşü kilidlə</string>
     <string name="settings_lock_layout_summary_on">Nişanlar və vicetlər əsas ekranda əlavə edilə, çıxarıla və ya köçürülə bilməz</string>
     <string name="settings_lock_layout_summary_off">Nişanlar və vicetlər əsas ekranda əlavə edilə, çıxarıla və ya köçürülə bilər</string>
@@ -68,4 +70,16 @@
     <string name="pref_allow_phone_overview_grid_desc">Daha çox yeni tətbiq \"İcmal\"da</string>
     <string name="pref_themed_icons_title">Bütün tətbiqlərdə temalı nişanlar</string>
     <string name="pref_themed_icons_summary">\"Əsas ekran yuvası\" və \"bütün tətbiqlərdə temalı nişanlar\" arasında keçid etmək üçün tənzimləyin</string>
+    <string name="row_height_title">Sətir hündürlüyü</string>
+    <string name="show_top_shadow">Üst kölgə</string>
+    <string name="allow_wallpaper_scrolling">Divar kağızı sürüşdürmə</string>
+    <string name="allow_wallpaper_scrolling_desc">Bir neçə ekran üçün divar kağızı sürüşdürmə effekti</string>
+    <string name="suggestion_pref_screen_title">Təkliflər</string>
+    <string name="suggestion_pref_screen_desc">Bütün tətbiqlər və Əsas ekran təklifləri üçün</string>
+    <string name="allow_wallpaper_zooming">Divar kağızı yaxınlaşdırma</string>
+    <string name="allow_wallpaper_zooming_desc">Siyirməni və ya son tətbiqləri istifadə edərkən divar kağızını yaxınlaşdır/uzaqlaşdır</string>
+    <string name="background_opacity_title">Arxaplan şəffaflığı</string>
+    <string name="recents_screenshot_title">Ekran şəkli</string>
+    <string name="recents_clear_all_title">Hamısını təmizlə</string>
+    <string name="recents_lens_title">Linzalar</string>
 </resources>

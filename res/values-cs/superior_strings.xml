@@ -21,6 +21,8 @@
     <string name="icons_category_summary">Nastavit velikost ikon a\u00a0další parametry</string>
     <string name="app_drawer_category_title">Menu aplikací</string>
     <string name="app_drawer_category_summary">Přizpůsobení menu aplikací</string>
+    <string name="recents_category_title">Nedávné</string>
+    <string name="recents_category_summary">Změnit styl obrazovky nedávných aplikací</string>
     <string name="misc_category_title">Různé</string>
     <string name="misc_category_summary">Další možnosti</string>
     <string name="dev_options_title">Možnosti pro vývojáře</string>
@@ -28,6 +30,7 @@
     <string name="general_category_title">Obecné</string>
     <string name="interface_category_title">Rozhraní</string>
     <string name="search_bar_category_title">Vyhledávací panel</string>
+    <string name="actions_category_title">Rychlé akce</string>
     <string name="settings_lock_layout_title">Uzamknout rozložení</string>
     <string name="settings_lock_layout_summary_on">Ikony a widgety nelze přidat, odebrat a přesunout na domovské obrazovce</string>
     <string name="settings_lock_layout_summary_off">Ikony a widgety lze přidat, odebrat a přesunout na domovské obrazovce</string>
@@ -64,8 +67,20 @@
     <string name="app_info_source_system">Systém</string>
     <string name="pref_allow_phone_taskbar">Použít panel úloh</string>
     <string name="pref_allow_phone_taskbar_desc">Pro otevírání a\u00a0přepínání aplikací kdekoliv</string>
-    <string name="pref_allow_phone_overview_grid">Zobrazit mřížku nedávných aplikací</string>
+    <string name="pref_allow_phone_overview_grid">Styl mřížky</string>
     <string name="pref_allow_phone_overview_grid_desc">Více nedávných aplikací v\u00a0přehledu</string>
     <string name="pref_themed_icons_title">Ikony motivů všech aplikací</string>
     <string name="pref_themed_icons_summary">Přepínání mezi dokem na domovské obrazovce a ikonami motivů všech aplikací</string>
+    <string name="row_height_title">Výška řádku</string>
+    <string name="show_top_shadow">Horní stín</string>
+    <string name="allow_wallpaper_scrolling">Posouvání tapety</string>
+    <string name="allow_wallpaper_scrolling_desc">Efekt posouvání tapety pro vícero obrazovek</string>
+    <string name="suggestion_pref_screen_title">Návrhy</string>
+    <string name="suggestion_pref_screen_desc">Pro všechny aplikace a návrhy na ploše</string>
+    <string name="allow_wallpaper_zooming">Přiblížení tapety</string>
+    <string name="allow_wallpaper_zooming_desc">Přiblížit nebo oddálit tapetu při použití rolety aplikací nebo nedávných aplikací</string>
+    <string name="background_opacity_title">Neprůhlednost pozadí</string>
+    <string name="recents_screenshot_title">Snímek obrazovky</string>
+    <string name="recents_clear_all_title">Vyčistit vše</string>
+    <string name="recents_lens_title">Lens</string>
 </resources>

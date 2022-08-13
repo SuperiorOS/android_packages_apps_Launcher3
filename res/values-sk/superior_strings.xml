@@ -21,6 +21,8 @@
     <string name="icons_category_summary">Nastavit velikost ikon a\u00a0dalšie parametry</string>
     <string name="app_drawer_category_title">Ponuka aplikácií</string>
     <string name="app_drawer_category_summary">Prispôsobiť ponuku aplikácií</string>
+    <string name="recents_category_title">Nedávne</string>
+    <string name="recents_category_summary">Zmeniť štýl obrazovky nedávnych aplikácií</string>
     <string name="misc_category_title">Rôzne</string>
     <string name="misc_category_summary">Ďalšie možnosti</string>
     <string name="dev_options_title">Možnosti pre vývojárov</string>
@@ -28,6 +30,7 @@
     <string name="general_category_title">Hlavné</string>
     <string name="interface_category_title">Rozhranie</string>
     <string name="search_bar_category_title">Vyhľadávací panel</string>
+    <string name="actions_category_title">Rýchle akcie</string>
     <string name="settings_lock_layout_title">Uzamknúť rozloženie</string>
     <string name="settings_lock_layout_summary_on">Ikony a miniaplikácie nie je možné pridať, odstrániť a presunúť na domovskú obrazovku</string>
     <string name="settings_lock_layout_summary_off">Ikony a miniaplikácie je možné pridať, odstrániť a presunúť na domovskú obrazovku</string>
@@ -68,4 +71,16 @@
     <string name="pref_allow_phone_overview_grid_desc">Viac nedávnych aplikácií v\u00a0prehľade</string>
     <string name="pref_themed_icons_title">Ikony motívov všetkých aplikácií </string>
     <string name="pref_themed_icons_summary">Prepínanie medzi dokom na domovskej obrazovke a ikonami motívov všetkých aplikácií</string>
+    <string name="row_height_title">Výška riadku</string>
+    <string name="show_top_shadow">Horný tieň</string>
+    <string name="allow_wallpaper_scrolling">Posúvanie tapety</string>
+    <string name="allow_wallpaper_scrolling_desc">Efekt posúvania tapety pre viacero obrazoviek</string>
+    <string name="suggestion_pref_screen_title">Návrhy</string>
+    <string name="suggestion_pref_screen_desc">Pre všetky aplikácie &amp; návrhy dna ploche</string>
+    <string name="allow_wallpaper_zooming">Priblíženie tapety</string>
+    <string name="allow_wallpaper_zooming_desc">Priblížiť alebo oddialiť tapetu pri použití ponuky aplikácií alebo nedávnych aplikácií</string>
+    <string name="background_opacity_title">Priehľadnosť pozadia</string>
+    <string name="recents_screenshot_title">Snímka obrazovky</string>
+    <string name="recents_clear_all_title">Zmazať všetko</string>
+    <string name="recents_lens_title">Lens</string>
 </resources>
