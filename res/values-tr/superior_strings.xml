@@ -83,4 +83,8 @@
     <string name="recents_screenshot_title">Ekran görüntüsü</string>
     <string name="recents_clear_all_title">Tümünü temizle</string>
     <string name="recents_lens_title">Lens</string>
+    <string name="background_blur_title">Arka plan bulanıklık derinliği</string>
+    <string name="background_blur_desc">Son uygulamalar ve uygulama çekmecesi için bulanıklık derinliği seviyesini ayarlayın</string>
+    <string name="meminfo_text">%1$s Kullanılabilir | %2$s Toplam</string>
+    <string name="recents_meminfo_title">Bellek bilgisi</string>
 </resources>

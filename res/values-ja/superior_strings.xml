@@ -83,4 +83,10 @@
     <string name="recents_screenshot_title">スクリーンショット</string>
     <string name="recents_clear_all_title">全て消去</string>
     <string name="recents_lens_title">レンズ</string>
+    <string name="background_blur_title">背景ぼかしの深さ</string>
+    <string name="background_blur_desc">アプリ履歴とアプリドロワーのぼかしの深さを設定する</string>
+    <string name="meminfo_text">%1$s 利用可能 | %2$s 合計</string>
+    <string name="recents_meminfo_title">メモリ情報</string>
+    <string name="hotseat_bg_title">ホットシートの背景</string>
+    <string name="hotseat_bg_summary">アプリドックに半透明の背景を追加する</string>
 </resources>

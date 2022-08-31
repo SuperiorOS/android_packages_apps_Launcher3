@@ -83,4 +83,8 @@
     <string name="recents_screenshot_title">Снимок экрана</string>
     <string name="recents_clear_all_title">Очистить все</string>
     <string name="recents_lens_title">Линза</string>
+    <string name="background_blur_title">Глубина размытия фона</string>
+    <string name="background_blur_desc">Установка глубины размытия для недавних и меню приложений</string>
+    <string name="meminfo_text">Доступно: %1$s | Всего: %2$s</string>
+    <string name="recents_meminfo_title">Информация о памяти</string>
 </resources>
