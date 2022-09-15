@@ -87,4 +87,6 @@
     <string name="background_blur_desc">Установка глубины размытия для недавних и меню приложений</string>
     <string name="meminfo_text">Доступно: %1$s | Всего: %2$s</string>
     <string name="recents_meminfo_title">Информация о памяти</string>
+    <string name="hotseat_bg_title">Фон нижней панели</string>
+    <string name="hotseat_bg_summary">Добавляет прозрачный фон в нижнюю часть</string>
 </resources>
