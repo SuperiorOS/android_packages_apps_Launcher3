@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 The SuperiorOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,16 +17,12 @@
 <resources>
 
     <!-- QuickSpace -->
-    <dimen name="quickspace_title_size">20sp</dimen>
-    <dimen name="quickspace_subtitle_size">16sp</dimen>
-    <dimen name="quickspace_alternate_title_size">18sp</dimen>
-    <dimen name="quickspace_alternate_subtitle_size">16sp</dimen>
+    <style name="QuickSpaceText">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
 
-     <!-- Meminfo in overview -->
-    <dimen name="meminfo_bottom_margin_gesture">15dp</dimen>
-    <dimen name="meminfo_bottom_margin_three_button">15dp</dimen>
-    
-    <!-- Search bar margin -->
-    <dimen name="all_apps_search_bar_margin_top">28dp</dimen>
-    <dimen name="all_apps_search_bar_margin_side">38dp</dimen>
+    <style name="QuickSpaceSubText">
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+
 </resources>
