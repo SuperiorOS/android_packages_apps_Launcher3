@@ -27,15 +27,22 @@
     <string name="search_bar_category_title">搜尋列</string>
     <string name="actions_category_title">快捷操作</string>
     <string name="settings_lock_layout_title">鎖定配置</string>
+    <string name="msg_minus_one_on_left">當在主畫面向左滑動時</string>
+    <string name="msg_minus_one_on_right">當在主畫面向右滑動時</string>
+    <string name="custom_seekbar_default_value_is_set">已設定為預設值</string>
     <string name="icon_size_title">圖示大小</string>
     <string name="font_size_title">文字大小</string>
+    <string name="icon_max_lines_title">app 名稱的最大行數</string>
     <string name="pref_sleep_gesture_title">點兩下休眠</string>
     <string name="pref_sleep_gesture_summary">在空白處點兩下以關閉螢幕</string>
     <string name="label_search">搜尋</string>
     <string name="label_lens">智慧鏡頭</string>
     <string name="label_voice_search">語音搜尋</string>
     <string name="dock_search_title">Google 搜尋列</string>
+    <string name="dock_search_summary">在底部顯示搜尋列</string>
     <string name="dock_theme_title">主題圖示</string>
+    <string name="search_radius_title">圓角半徑</string>
+    <string name="action_lens">智慧鏡頭</string>
     <string name="show_statusbar_title">狀態列</string>
     <string name="icon_pack_title">圖示包</string>
     <string name="icon_pack_default_label">預設</string>
@@ -43,7 +50,14 @@
     <string name="icon_pack_no_market">無應用程式商店可用</string>
     <string name="app_info_subtext">向下滑關閉應用程式資訊</string>
     <string name="app_info_source_system">系統</string>
+    <string name="row_height_title">列高</string>
+    <string name="allow_wallpaper_scrolling">滑動桌布</string>
+    <string name="allow_wallpaper_scrolling_desc">在不同頁面間滑動時使桌布跟著移動</string>
     <string name="suggestion_pref_screen_title">建議</string>
+    <string name="allow_wallpaper_zooming">桌布縮放</string>
+    <string name="background_opacity_title">背景不透明度</string>
     <string name="recents_screenshot_title">螢幕快照</string>
     <string name="recents_clear_all_title">全部清除</string>
+    <string name="recents_lens_title">智慧鏡頭</string>
+    <string name="recents_meminfo_title">記憶體資訊</string>
 </resources>
