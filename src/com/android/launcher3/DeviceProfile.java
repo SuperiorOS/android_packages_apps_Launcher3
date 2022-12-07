@@ -467,7 +467,7 @@ public class DeviceProfile {
         int minQsbMargin = res.getDimensionPixelSize(R.dimen.min_qsb_margin);
         hotseatQsbSpace = showQsb ? pxFromDp(inv.hotseatQsbSpace[mTypeIndex], mMetrics) : 0;
         // Have a little space between the inset and the QSB
-        if (showQsb && mInsets.bottom + minQsbMargin > hotseatBarBottomSpace) {
+        if (mInsets.bottom + minQsbMargin > hotseatBarBottomSpace && Utilities.showQSB(context)) {
             int availableSpace = hotseatQsbSpace - (mInsets.bottom - hotseatBarBottomSpace);
 
             // Only change the spaces if there is space
