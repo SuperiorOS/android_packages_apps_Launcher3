@@ -27,14 +27,14 @@
 
     <dimen name="dynamic_grid_cell_border_spacing">16dp</dimen>
     <dimen name="cell_layout_padding">10.77dp</dimen>
-    <dimen name="dynamic_grid_cell_padding_x">8dp</dimen>
+    <dimen name="dynamic_grid_cell_padding_x">7dp</dimen>
 
     <!-- Hotseat -->
     <dimen name="dynamic_grid_hotseat_bottom_tall_padding">0dp</dimen>
     <dimen name="spring_loaded_hotseat_top_margin">76dp</dimen>
 
-    <dimen name="qsb_widget_height">61dp</dimen>
-    <dimen name="qsb_icon_padding">10dp</dimen>
+    <dimen name="qsb_widget_height">63dp</dimen>
+    <dimen name="qsb_icon_padding">12dp</dimen>
     <dimen name="qsb_widget_vertical_padding">6dp</dimen>
 
     <!-- Qsb -->
@@ -51,7 +51,7 @@
     <!-- Workspace page indicator -->
     <dimen name="workspace_page_indicator_height">24dp</dimen>
     <dimen name="workspace_page_indicator_line_height">1dp</dimen>
-    <dimen name="workspace_page_indicator_overlap_workspace">0dp</dimen>
+    <dimen name="workspace_page_indicator_overlap_workspace">12dp</dimen>
 
     <!-- Drop target bar -->
     <dimen name="dynamic_grid_drop_target_size">56dp</dimen>
@@ -107,12 +107,12 @@
 
     <!-- All Apps -->
     <dimen name="all_apps_starting_vertical_translate">300dp</dimen>
-    <dimen name="all_apps_search_bar_field_height">52dp</dimen>
+    <dimen name="all_apps_search_bar_field_height">48dp</dimen>
     <!-- all_apps_search_bar_field_height / 2 -->
-    <dimen name="all_apps_search_bar_content_overlap">26dp</dimen>
+    <dimen name="all_apps_search_bar_content_overlap">24dp</dimen>
     <!-- affects padding above apps lists when tabs and floating header rows are not visible -->
     <!-- (always affects padding above search results) -->
-    <dimen name="all_apps_search_bar_bottom_padding">42dp</dimen>
+    <dimen name="all_apps_search_bar_bottom_padding">36dp</dimen>
     <!-- margin adjustment for layout relative to bottom of search container -->
     <!-- if the search container is obscuring things, try adjusting this -->
     <dimen name="all_apps_search_bar_bottom_adjustment">-6dp</dimen>
@@ -263,7 +263,7 @@
     <dimen name="keyboard_drag_stroke_width">4dp</dimen>
 
     <!-- Folders -->
-    <dimen name="page_indicator_dot_size">8dp</dimen>
+    <dimen name="page_indicator_dot_size">6dp</dimen>
     <dimen name="page_indicator_size">10dp</dimen>
 
 
