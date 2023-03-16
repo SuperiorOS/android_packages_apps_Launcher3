@@ -12,10 +12,10 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 
-import com.android.launcher3.CustomLauncher;
+import com.android.launcher3.SuperiorLauncher;
 import com.android.launcher3.CustomLauncherModelDelegate;
 
-import com.android.launcher3.CellLayout;
+import com.android.launcher3.celllayout.CellLayoutLayoutParams;;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
@@ -48,7 +48,7 @@ public class SmartspaceViewContainer extends FrameLayout implements PluginListen
         layoutParams.setMarginStart(getResources().getDimensionPixelSize(R.dimen.enhanced_smartspace_margin_start_launcher));
         addView(mView, layoutParams);
 
-        CustomLauncher launcher = (CustomLauncher) ActivityContext.lookupContext(context);
+        SuperiorLauncher launcher = (SuperiorLauncher) ActivityContext.lookupContext(context);
         launcher.getLauncherUnlockAnimationController().setSmartspaceView(mView);
 
         CustomLauncherModelDelegate delegate = (CustomLauncherModelDelegate) launcher.getModel().getModelDelegate();
@@ -64,7 +64,7 @@ public class SmartspaceViewContainer extends FrameLayout implements PluginListen
 
     @Override
     public void onPluginDisconnected(BcSmartspaceDataPlugin plugin) {
-        CustomLauncher launcher = (CustomLauncher) ActivityContext.lookupContext(getContext());
+        SuperiorLauncher launcher = (SuperiorLauncher) ActivityContext.lookupContext(getContext());
         mView.registerDataProvider(launcher.getSmartspacePlugin());
     }
 
@@ -82,7 +82,7 @@ public class SmartspaceViewContainer extends FrameLayout implements PluginListen
 
     @Override
     public void setPadding(int left, int top, int right, int bottom) {
-        CellLayout.LayoutParams lp = (CellLayout.LayoutParams) getLayoutParams();
+        CellLayoutLayoutParams lp = (CellLayoutLayoutParams) getLayoutParams();
         lp.setMargins(left, top, right, bottom);
         setLayoutParams(lp);
     }
