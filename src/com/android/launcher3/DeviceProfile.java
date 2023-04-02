@@ -33,6 +33,7 @@ import static com.android.launcher3.testing.shared.ResourceUtils.roundPxValueFro
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -324,6 +325,8 @@ public class DeviceProfile {
         windowY = windowBounds.bounds.top;
         this.rotationHint = windowBounds.rotationHint;
         mInsets.set(windowBounds.insets);
+
+       SharedPreferences prefs = LauncherPrefs.getPrefs(context);
 
         // TODO(b/241386436): shouldn't change any launcher behaviour
         mIsResponsiveGrid = inv.workspaceSpecsId != INVALID_RESOURCE_HANDLE
