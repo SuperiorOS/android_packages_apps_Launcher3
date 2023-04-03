@@ -174,13 +174,13 @@ public class SettingsIcons extends CollapsingToolbarBaseActivity
 
             updatePreferences();
 
-            Utilities.getPrefs(getContext())
+            LauncherPrefs.getPrefs(getContext())
                     .registerOnSharedPreferenceChangeListener(this);
         }
 
         @Override
         public void onDestroyView () {
-            Utilities.getPrefs(getContext())
+            LauncherPrefs.getPrefs(getContext())
                 .unregisterOnSharedPreferenceChangeListener(this);
             super.onDestroyView();
         }
