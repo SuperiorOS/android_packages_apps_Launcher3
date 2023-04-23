@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Cài đặt màn hình chính</string>
+    <string name="home_category_title">Màn hình chính</string>
+    <string name="home_category_summary">Đặt bảng điều khiển Google now và nhiều hơn</string>
+    <string name="icons_category_title">Icons</string>
+    <string name="icons_category_summary">Đặt kích cỡ biểu tượng và nhiều hơn</string>
+    <string name="app_drawer_category_title">Ngăn ứng dụng</string>
+    <string name="app_drawer_category_summary">Tùy chỉnh ngăn chứa ứng dụng</string>
+    <string name="recents_category_title">Đa nhiệm</string>
+    <string name="recents_category_summary">Làm mới màn hình tổng quan</string>
+    <string name="misc_category_title">Các tùy chọn khác</string>
+    <string name="misc_category_summary">Các tùy chọn khác</string>
+    <string name="general_category_title">Tổng quát</string>
+    <string name="interface_category_title">Thiết lập giao diện</string>
+    <string name="search_bar_category_title">Thanh tìm kiếm</string>
+    <string name="actions_category_title">Thao tác nhanh</string>
+    <string name="dev_options_title">Tùy chọn nhà phát triển</string>
+    <string name="dev_options_summary">Bật một số tính năng ẩn và tự chịu rủi ro</string>
+    <string name="settings_lock_layout_title">Khóa bố cục</string>
+    <string name="settings_lock_layout_summary_on">Các biểu tượng và tiện ích con không thể được thêm, xóa và di chuyển trên màn hình chính</string>
+    <string name="settings_lock_layout_summary_off">Các biểu tượng và tiện ích con có thể được thêm, xóa và di chuyển trên màn hình chính</string>
+    <string name="settings_edit_widgets_error">Không thể thêm tiện ích con vào màn hình chính</string>
+    <string name="desktop_show_labels">Nhãn biểu tượng trên màn hình chính</string>
+    <string name="drawer_show_labels">Nhãn biểu tượng trong ngăn kéo</string>
+    <string name="title_show_google_app">Vuốt để truy cập ứng dụng Google</string>
+    <string name="msg_minus_one_on_left">Từ Màn hình chính, vuốt sang trái để mở ứng dụng Google</string>
+    <string name="msg_minus_one_on_right">Từ màn hình chính, vuốt sang phải để mở Google</string>
+    <string name="pref_sleep_gesture_title">Nhấn đúp để tắt màn hình</string>
+    <string name="pref_sleep_gesture_summary">Nhấn đúp vào không gian trống để tắt màn hình</string>
+    <string name="pause">Tạm ngừng</string>
+    <string name="pause_apps_dialog_title">Tạm dừng %1$s?</string>
+    <string name="pause_apps_dialog_message">Thông báo cho %1$s sẽ bị tạm dừng</string>
+    <string name="paused_apps_dialog_title">Ứng dụng đã bị tạm dừng</string>
+    <string name="paused_apps_dialog_message">%1$s đã bị tạm dừng trực tiếp từ trình khởi chạy</string>
+    <string name="paused_apps_drop_target_label">Tạm dừng ứng dụng</string>
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">theo mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="custom_seekbar_default_value_is_set">Giá trị mặc định được thiết lập</string>
+    <string name="icon_size_title">Kích cỡ biểu tượng</string>
+    <string name="font_size_title">Cỡ phông chữ</string>
+    <string name="icon_max_lines_title">Số dòng tối đa cho tên ứng dụng</string>
+    <string name="label_search">Tìm kiếm</string>
+    <string name="label_lens">Google Ống kính</string>
+    <string name="label_voice_search">Tìm kiếm bằng giọng nói</string>
+    <string name="dock_music_search_title">Tìm kiếm nhạc</string>
+    <string name="dock_music_search_summary">Tìm kiếm nhạc khi ấn vào biểu tượng</string>
+    <string name="dock_search_title">Thanh tìm kiếm của Google</string>
+    <string name="dock_search_summary">Thanh tìm kiếm trong thanh công cụ dưới</string>
+    <string name="dock_theme_title">Themed icons</string>
+    <string name="dock_theme_summary">Dùng biểu tượng tuỳ biến cho thanh tìm kiếm</string>
+    <string name="search_radius_title">Bán kính góc</string>
+    <string name="hotseat_bg_title">Nền thanh công cụ</string>
+    <string name="hotseat_bg_summary">Thêm nền mờ vào thanh công cụ</string>
+    <string name="allow_wallpaper_scrolling">Cuộn hình nền</string>
+    <string name="allow_wallpaper_scrolling_summary">Hiệu ứng cuộn hình nền cho nhiều màn hình</string>
+    <string name="allow_wallpaper_zooming">Thu phóng hình nền</string>
+    <string name="allow_wallpaper_zooming_summary">Thu to nhỏ hình nền khi dùng khay ứng dụng hoặc ứng dụng gần đây</string>
+    <string name="show_statusbar_title">Thanh trạng thái</string>
+    <string name="show_top_shadow">Bóng trên cùng</string>
+    <string name="row_height_title">Chiều cao hàng</string>
+    <string name="background_blur_title">Độ mờ hình nền</string>
+    <string name="background_blur_summary">Đặt giá trị độ sâu nền mờ cho gần đây và ngăn kéo ứng dụng</string>
+    <string name="suggestion_pref_screen_title">Đề xuất</string>
+    <string name="suggestion_pref_screen_desc">Đối với tất cả các ứng dụng &amp; Gợi ý màn hình chính</string>
+    <string name="background_opacity_title">Độ mờ của nền</string>
+    <string name="recents_screenshot_title">Ảnh chụp màn hình</string>
+    <string name="recents_clear_all_title">Xóa sạch</string>
+    <string name="recents_lens_title">Ống Kính</string>
+    <string name="pref_themed_icons_title">Biểu tượng theo chủ đề</string>
+    <string name="pref_themed_icons_summary">Làm theo các biểu tượng theo chủ đề được sử dụng trên màn hình chính</string>
+    <string name="icon_pack_title">Gói biểu tượng</string>
+    <string name="icon_pack_default_label">Mặc định</string>
+    <string name="icon_pack_add">Cài đặt thêm</string>
+    <string name="icon_pack_no_market">Không có ứng dụng nào khả dụng trong cửa hàng</string>
+    <string name="recent_task_option_kill_app">Đóng hoạt động</string>
+    <string name="recents_app_killed">Đã dừng ứng dụng</string>
+    <string name="meminfo_text">%1$s Trống | %2$s Tổng</string>
+    <string name="recents_meminfo_title">Thông tin bộ nhớ</string>
+    <string name="drawer_search_title">Thanh tìm kiếm ứng dụng</string>
+    <string name="drawer_search_summary">Thanh tìm kiếm trên đầu ngăn kéo ứng dụng</string>
+    <string name="pref_restart_title">Khởi động lại</string>
+    <string name="pref_restart_summary">Khởi động lại trình khởi chạy để áp dụng các cài đặt đang chờ xử lý</string>
+    <string name="smartspace_pref_title">Nhìn thoáng qua</string>
+    <string name="smartspace_pref_summary">Hiển thị không gian thông minh ở trên cùng Màn hình chính</string>
+</resources>
