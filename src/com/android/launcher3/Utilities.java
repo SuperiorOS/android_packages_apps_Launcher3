@@ -168,6 +168,7 @@ public final class Utilities {
     public static final String KEY_RECENTS_MEMINFO = "pref_recents_meminfo";
     public static final String KEY_DRAWER_SEARCH = "pref_drawer_search";
     public static final String KEY_HOTSEAT_OPACITY = "pref_hotseat_opacity";
+    public static final String KEY_LENS = "pref_recents_lens";
 
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
