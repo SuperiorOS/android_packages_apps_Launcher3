@@ -171,6 +171,7 @@ public final class Utilities {
     public static final String KEY_LENS = "pref_recents_lens";
     public static final String KEY_SHORT_PARALLAX = "pref_short_parallax";
     public static final String KEY_SINGLE_PAGE_CENTER = "pref_single_page_center";
+    public static final String KEY_FORCE_MONOCHROME_ICONS = "pref_forced_monochrome_icons";
 
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
@@ -940,5 +941,10 @@ public final class Utilities {
     public static boolean isSinglePageCentered(Context context) {
         SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_SINGLE_PAGE_CENTER, false);
+    }
+       
+    public static boolean enableMonoChromeThemedIcons(Context context) {
+    	SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+    	return prefs.getBoolean(KEY_FORCE_MONOCHROME_ICONS, false);
     }
 }
