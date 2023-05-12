@@ -116,9 +116,6 @@
     <!-- Homescreen Statusbar -->
     <string name="show_statusbar_title">Status Bar</string>
 
-    <!-- Top shadow -->
-    <string name="show_top_shadow">Top shadow</string>
-
     <!-- Row Height -->
     <string name="row_height_title">Row height</string>
     
