@@ -165,4 +165,7 @@
     <string name="smartspace_pref_title">At a Glance</string>
     <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
 
+    <!-- QSB -->
+    <string name="qsb_search_hint">Search this phone and more…</string>
+
 </resources>
