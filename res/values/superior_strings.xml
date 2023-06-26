@@ -3,7 +3,7 @@
      Copyright (C)2020-2024 The SuperiorOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
     <string name="superior_app_name" translatable="false">Superior Launcher</string>
 
@@ -138,6 +138,6 @@
     <string name="row_height_title">Row height</string>
 
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
+    <string name="meminfo_text">%1$s available | %2$s</string>
     <string name="recents_meminfo_title">Memory info</string>
 </resources>
