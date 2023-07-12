@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Əsas ekran tənzimləmələri</string>
+    <string name="home_category_title">Əsas ekran</string>
+    <string name="home_category_summary">Google now panelini və daha çoxunu tənzimləyin</string>
+    <string name="icons_category_title">Nişanlar</string>
+    <string name="icons_category_summary">Nişan ölçüsünü və daha çoxunu tənzimləyin</string>
+    <string name="app_drawer_category_title">Tətbiq siyirməsi</string>
+    <string name="app_drawer_category_summary">Tətbiq siyirməsini özəlləşdirin</string>
+    <string name="recents_category_title">Sonuncular</string>
+    <string name="recents_category_summary">Ümumi baxış ekranını təzələ</string>
+    <string name="misc_category_title">Müxtəlif</string>
+    <string name="misc_category_summary">Digər seçimlər</string>
+    <string name="general_category_title">Ümumi</string>
+    <string name="interface_category_title">İnterfeys</string>
+    <string name="search_bar_category_title">Axtarış sətri</string>
+    <string name="actions_category_title">Cəld əməliyyatlar</string>
+    <string name="dev_options_title">Tərtibatçı seçimləri</string>
+    <string name="dev_options_summary">Bəzi gizli özəllikləri fəallaşdırsanız, risk almış olacaqsınız</string>
+    <string name="settings_lock_layout_title">Düzümü kilidlə</string>
+    <string name="settings_lock_layout_summary_on">Nişanlar və vicetlər əsas ekranda əlavə edilə, çıxarıla və ya daşına bilməz</string>
+    <string name="settings_lock_layout_summary_off">Nişanlar və vicetlər əsas ekranda əlavə edilə, çıxarıla və ya daşına bilər</string>
+    <string name="settings_edit_widgets_error">Əsas ekrana vicet əlavə etmək mümkün deyil</string>
+    <string name="desktop_show_labels">Masaüstündə nişan etiketləri</string>
+    <string name="drawer_show_labels">Siyirmədə nişan etiketləri</string>
+    <string name="title_show_google_app">Google tətbiqinə müraciət üçün sürüşdür</string>
+    <string name="msg_minus_one_on_left">Google tətbiqini açmaq üçün əsas ekrandan sola sürüşdür</string>
+    <string name="msg_minus_one_on_right">Google tətbiqini açmaq üçün əsas ekrandan sağa sürüşdür</string>
+    <string name="pref_sleep_gesture_title">Yuxulatmaq üçün cüt toxunun</string>
+    <string name="pref_sleep_gesture_summary">Ekranı söndürmək üçün boş sahəyə cüt toxunun</string>
+    <string name="pause">Fasilə ver</string>
+    <string name="pause_apps_dialog_title">%1$s - fasilə verilsin?</string>
+    <string name="pause_apps_dialog_message">%1$s üçün bildirişlərə fasilə veriləcək</string>
+    <string name="paused_apps_dialog_title">Tətbiqə fasilə verildi</string>
+    <string name="paused_apps_dialog_message">%1$s üçün birbaşa başladıcıdan fasilə verildi</string>
+    <string name="paused_apps_drop_target_label">Tətbiqə fasilə ver</string>
+    <string name="custom_seekbar_value">Dəyər: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">ilkin olaraq</string>
+    <string name="custom_seekbar_default_value_to_set">İlkin dəyər: <xliff:g id="v">%s</xliff:g>\nTənzimləmək üçün uzun toxunun</string>
+    <string name="custom_seekbar_default_value_is_set">İlkin dəyər tənzimləndi</string>
+    <string name="icon_size_title">Nişan ölçüsü</string>
+    <string name="font_size_title">Şrift ölçüsü</string>
+    <string name="icon_max_lines_title">Tətbiq etiketi üçün maksimal sətir</string>
+    <string name="label_search">Axtar</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Səsli axtarış</string>
+    <string name="dock_music_search_title">Musiqi axtarışı</string>
+    <string name="dock_music_search_summary">Mikrofon nişanına basaraq musiqi axtarışını başlat</string>
+    <string name="dock_search_title">Google axtarış sətri</string>
+    <string name="dock_search_summary">Alt bölmədə axtarış sətri</string>
+    <string name="dock_theme_title">Temalı nişanlar</string>
+    <string name="dock_theme_summary">Axtarış sətri üçün temalı nişanlar istifadə et</string>
+    <string name="search_radius_title">Künc radiusu</string>
+    <string name="hotseat_bg_title">Hotseat arxaplan</string>
+    <string name="hotseat_bg_summary">Tətbiq yuvasına şəffaf arxaplan əlavə et</string>
+    <string name="allow_wallpaper_scrolling">Divar kağızı sürüşdürmə</string>
+    <string name="allow_wallpaper_scrolling_summary">Bir neçə ekran üçün divar kağızı sürüşdürmə effekti</string>
+    <string name="allow_wallpaper_zooming">Divar kağızı yaxınlaşdırma</string>
+    <string name="allow_wallpaper_zooming_summary">Siyirməni və ya son tətbiqləri istifadə edərkən divar kağızını yaxınlaşdır/uzaqlaşdır</string>
+    <string name="show_statusbar_title">Vəziyyət sətri</string>
+    <string name="show_top_shadow">Üst kölgə</string>
+    <string name="row_height_title">Sətir hündürlüyü</string>
+    <string name="background_blur_title">Arxaplan bulanıqlıq dərinliyi</string>
+    <string name="background_blur_summary">Son tətbiqlər və tətbiq siyirməsi üçün bulanıqlıq dərinliyinin səviyyəsini tənzimləyin</string>
+    <string name="suggestion_pref_screen_title">Təkliflər</string>
+    <string name="suggestion_pref_screen_desc">Bütün tətbiqlər və Əsas ekran təklifləri üçün</string>
+    <string name="background_opacity_title">Arxaplan şəffaflığı</string>
+    <string name="recents_screenshot_title">Ekran şəkli</string>
+    <string name="recents_clear_all_title">Hamısını təmizlə</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="pref_themed_icons_title">Temalı nişanlar</string>
+    <string name="pref_themed_icons_summary">Əsas ekranda istifadə edilən temalı nişanları izlə</string>
+    <string name="recent_task_option_kill_app">Dayandır</string>
+    <string name="recents_app_killed">Tətbiq dayandırıldı</string>
+    <string name="meminfo_text">Əlçatan: %1$s | Cəmi: %2$s</string>
+    <string name="recents_meminfo_title">Yaddaş məlumatı</string>
+    <string name="drawer_search_title">Tətbiq axtarış sətri</string>
+    <string name="drawer_search_summary">Tətbiq siyirməsinin üstündəki axtarış sətri</string>
+    <string name="pref_restart_title">Yenidən başlat</string>
+    <string name="pref_restart_summary">Gözləyən tənzimləmələri tətbiq etmək üçün başladıcını əllə yenidən başlat</string>
+    <string name="restarting_launcher">Yenidən başladılır...</string>
+    <string name="updating_launcher_components">Başladıcı komponentləri güncəllənir...</string>
+    <string name="recents_shake_clear_all_title">Bütün tapşırıqları təmizləmək üçün telefonu silkələ</string>
+    <string name="smartspace_pref_title">Bir baxışda</string>
+    <string name="smartspace_pref_summary">Smartspace-i əsas ekranın üst hissəsində göstər</string>
+    <string name="short_parallax_title">Qısa paralaksa icazə ver</string>
+    <string name="short_parallax_summary">Divar kağızını kəsmək əvəzinə daha az sayda səhifədə tam divar kağızı sürüşdürmə effektini fəallaşdırın</string>
+    <string name="single_page_center_title">Tək səhifə mərkəzi</string>
+    <string name="single_page_center_summary">Yalnız tək bir səhifə istifadə edilirsə divar kağızını mərkəzə yerləşdirin</string>
+    <string name="pref_force_monochrome_themed_icons_title">Temalı nişanlara məcbur et</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Temaya sahib olmayan tətbiqlər üçün temalı nişan yarat (temalı nişanları təkrar dəyişdirilməsini tələb edir)</string>
+    <string name="qsb_search_hint">Bu telefonu və daha çoxunu axtar…</string>
+    <string name="icon_pack_title">Nişan paketi</string>
+    <string name="icon_pack_default_label">İlkin</string>
+    <string name="icon_pack_add">Daha çox quraşdır</string>
+    <string name="icon_pack_no_market">Əlçatan tətbiq mağazası yoxdur</string>
+</resources>

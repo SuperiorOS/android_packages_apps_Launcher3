@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Configurações da tela inical</string>
+    <string name="home_category_title">Tela inicial</string>
+    <string name="home_category_summary">Definir o Google Now e muito mais</string>
+    <string name="icons_category_title">Ícones</string>
+    <string name="icons_category_summary">Definir tamanho do ícone e muito mais</string>
+    <string name="app_drawer_category_title">Gaveta de aplicativos</string>
+    <string name="app_drawer_category_summary">Personalizar sua gaveta de aplicativos</string>
+    <string name="recents_category_title">Recentes</string>
+    <string name="recents_category_summary">Renove a tela de visão geral</string>
+    <string name="misc_category_title">Diversos</string>
+    <string name="misc_category_summary">Outras Opções</string>
+    <string name="general_category_title">Gerais</string>
+    <string name="interface_category_title">Interface</string>
+    <string name="search_bar_category_title">Barra de pesquisa</string>
+    <string name="actions_category_title">Ações rápidas</string>
+    <string name="dev_options_title">Opções de desenvolvedor</string>
+    <string name="dev_options_summary">Ativar alguns recursos ocultos por sua conta e risco</string>
+    <string name="settings_lock_layout_title">Bloquear layout</string>
+    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos e movidos na tela inicial</string>
+    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos na tela inicial</string>
+    <string name="settings_edit_widgets_error">Não é possível adicionar widgets à tela inicial</string>
+    <string name="desktop_show_labels">Rótulos dos ícones na tela inicial</string>
+    <string name="drawer_show_labels">Rótulos dos ícones na gaveta de aplicativos</string>
+    <string name="title_show_google_app">Deslize para acessar o feed do Google</string>
+    <string name="msg_minus_one_on_left">Na tela inicial, deslize para a esquerda para acessar o feed do Google</string>
+    <string name="msg_minus_one_on_right">Na tela inicial, deslize para a direita para acessar o feed do Google</string>
+    <string name="pref_sleep_gesture_title">Toque duplo para desligar a tela</string>
+    <string name="pref_sleep_gesture_summary">Toque duas vezes no espaço vazio para desligar a tela</string>
+    <string name="pause">Pausar</string>
+    <string name="pause_apps_dialog_title">Pausar %1$s?</string>
+    <string name="pause_apps_dialog_message">As notificações de %1$s serão pausadas</string>
+    <string name="paused_apps_dialog_title">App pausado</string>
+    <string name="paused_apps_dialog_message">%1$s foi pausado diretamente do launcher</string>
+    <string name="paused_apps_drop_target_label">Pausar app</string>
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">por padrão</string>
+    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
+    <string name="custom_seekbar_default_value_is_set">Valor padrão definido</string>
+    <string name="icon_size_title">Tamanho do ícone</string>
+    <string name="font_size_title">Tamanho da fonte</string>
+    <string name="icon_max_lines_title">Máximo de linhas para o rótulo do aplicativo</string>
+    <string name="label_search">Pesquisar</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Pesquisa por voz</string>
+    <string name="dock_music_search_title">Pesquisa de música</string>
+    <string name="dock_music_search_summary">Pesquisar músicas ao pressionar o ícone do microfone</string>
+    <string name="dock_search_title">Barra de pesquisa do Google</string>
+    <string name="dock_search_summary">Barra de pesquisa na dock inferior</string>
+    <string name="dock_theme_title">Ícones temáticos</string>
+    <string name="dock_theme_summary">Usar ícones temáticos para a barra de pesquisa</string>
+    <string name="search_radius_title">Raio das bordas</string>
+    <string name="hotseat_bg_title">Fundo da dock inferior</string>
+    <string name="hotseat_bg_summary">Adicionar fundo translúcido para a dock de apps</string>
+    <string name="allow_wallpaper_scrolling">Rolagem do papel de parede</string>
+    <string name="allow_wallpaper_scrolling_summary">Efeito de rolagem do papel de parede para várias telas</string>
+    <string name="allow_wallpaper_zooming">Zoom do papel de parede</string>
+    <string name="allow_wallpaper_zooming_summary">Ampliar ou diminuir o papel de parede quando estiver usando a gaveta ou aplicativos recentes</string>
+    <string name="show_statusbar_title">Barra de status</string>
+    <string name="show_top_shadow">Sombra superior</string>
+    <string name="row_height_title">Altura da linha</string>
+    <string name="background_blur_title">Intensidade do desfoque de fundo</string>
+    <string name="background_blur_summary">Definir a intensidade do desfoque para os aplicativos recentes e gaveta de aplicativos</string>
+    <string name="suggestion_pref_screen_title">Sugestões</string>
+    <string name="suggestion_pref_screen_desc">Para todos os apps &amp; sugestões de tela inicial</string>
+    <string name="background_opacity_title">Opacidade do fundo</string>
+    <string name="recents_screenshot_title">Captura de tela</string>
+    <string name="recents_clear_all_title">Limpar tudo</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="pref_themed_icons_title">Ícones temáticos</string>
+    <string name="pref_themed_icons_summary">Usar os mesmos ícones do tema da tela de início</string>
+    <string name="recent_task_option_kill_app">Encerrar</string>
+    <string name="recents_app_killed">Aplicativo encerrado</string>
+    <string name="meminfo_text">%1$s Disponível - %2$s Total</string>
+    <string name="recents_meminfo_title">Informações da memória</string>
+    <string name="drawer_search_title">Barra de pesquisa de aplicativos</string>
+    <string name="drawer_search_summary">Barra de pesquisa na parte superior da gaveta de aplicativos</string>
+    <string name="pref_restart_title">Reiniciar</string>
+    <string name="pref_restart_summary">Reiniciar manualmente o launcher para aplicar qualquer configuração pendente</string>
+    <string name="restarting_launcher">Reiniciando o launcher...</string>
+    <string name="updating_launcher_components">Atualizando componentes do launcher...</string>
+    <string name="recents_shake_clear_all_title">Agite o telefone para limpar todas as tarefas</string>
+    <string name="smartspace_pref_title">Resumo</string>
+    <string name="smartspace_pref_summary">Mostrar espaço inteligente na parte superior da tela inicial</string>
+    <string name="short_parallax_title">Permitir sobreposição curta</string>
+    <string name="short_parallax_summary">Ativar o efeito de rolagem de papel de parede completo em um número menor de páginas, em vez de cortar o papel de parede</string>
+    <string name="single_page_center_title">Página única centralizada</string>
+    <string name="single_page_center_summary">Centraliza o papel de parede ao usar apenas uma página</string>
+    <string name="pref_force_monochrome_themed_icons_title">Forçar ícones temáticos</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Gerar novos ícones com tema para aplicativos que não possuem um (alterne novamente o interruptor de ícones temáticos)</string>
+    <string name="qsb_search_hint">Pesquisar no telefone e mais…</string>
+    <string name="icon_pack_title">Pacote de ícones</string>
+    <string name="icon_pack_default_label">Padrão</string>
+    <string name="icon_pack_add">Instalar mais</string>
+    <string name="icon_pack_no_market">Não há uma loja de aplicativos disponível</string>
+</resources>

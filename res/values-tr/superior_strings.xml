@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Ana ekran ayarları</string>
+    <string name="home_category_title">Ana ekran</string>
+    <string name="home_category_summary">Google now panelini ve daha fazlasını ayarlayın</string>
+    <string name="icons_category_title">Simgeler</string>
+    <string name="icons_category_summary">Simge boyutunu ve daha fazlasını ayarlayın</string>
+    <string name="app_drawer_category_title">Uygulama çekmecesi</string>
+    <string name="app_drawer_category_summary">Uygulama çekmecenizi özelleştirin</string>
+    <string name="recents_category_title">Son uygulamalar</string>
+    <string name="recents_category_summary">Son uygulamalar ekranını yenileyin</string>
+    <string name="misc_category_title">Çeşitli</string>
+    <string name="misc_category_summary">Diğer seçenekler</string>
+    <string name="general_category_title">Genel</string>
+    <string name="interface_category_title">Arayüz</string>
+    <string name="search_bar_category_title">Arama çubuğu</string>
+    <string name="actions_category_title">Hızlı eylemler</string>
+    <string name="dev_options_title">Geliştirici seçenekleri</string>
+    <string name="dev_options_summary">Bazı gizli özellikleri kendi sorumluluğunuzda etkinleştirin</string>
+    <string name="settings_lock_layout_title">Düzeni kilitle</string>
+    <string name="settings_lock_layout_summary_on">Simgeler ve widget\'lar ana ekrana eklenemez, kaldırılamaz ve taşınamaz</string>
+    <string name="settings_lock_layout_summary_off">Simgeler ve widget\'lar ana ekrana eklenebilir, kaldırılabilir ve taşınabilir</string>
+    <string name="settings_edit_widgets_error">Ana ekrana widget eklemek mümkün değildir</string>
+    <string name="desktop_show_labels">Ana ekranda simge etiketleri</string>
+    <string name="drawer_show_labels">Çekmecede simge etiketleri</string>
+    <string name="title_show_google_app">Google uygulamasına erişmek için kaydırın</string>
+    <string name="msg_minus_one_on_left">Google uygulamasını açmak için ana ekrandan sola kaydırın</string>
+    <string name="msg_minus_one_on_right">Google uygulamasını açmak için ana ekrandan sağa kaydırın</string>
+    <string name="pref_sleep_gesture_title">Uyutmak için çift dokunun</string>
+    <string name="pref_sleep_gesture_summary">Ekranı kapatmak için boş bir yere çift dokunun</string>
+    <string name="pause">Duraklat</string>
+    <string name="pause_apps_dialog_title">%1$s duraklatılsın mı?</string>
+    <string name="pause_apps_dialog_message">%1$s için bildirimler duraklatılacak</string>
+    <string name="paused_apps_dialog_title">Uygulama duraklatıldı</string>
+    <string name="paused_apps_dialog_message">%1$s doğrudan başlatıcıdan duraklatıldı</string>
+    <string name="paused_apps_drop_target_label">Uygulamayı duraklat</string>
+    <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">varsayılan</string>
+    <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
+    <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
+    <string name="icon_size_title">Simge boyutu</string>
+    <string name="font_size_title">Yazı tipi boyutu</string>
+    <string name="icon_max_lines_title">Uygulama adı için maksimum satır sayısı</string>
+    <string name="label_search">Ara</string>
+    <string name="label_lens">Google lens</string>
+    <string name="label_voice_search">Sesli arama</string>
+    <string name="dock_music_search_title">Müzik ara</string>
+    <string name="dock_music_search_summary">Mikrofon simgesine basarak müzik aramayı başlatın</string>
+    <string name="dock_search_title">Google arama çubuğu</string>
+    <string name="dock_search_summary">Alt kısımda arama çubuğu</string>
+    <string name="dock_theme_title">Temalı simgeler</string>
+    <string name="dock_theme_summary">Arama çubuğunda temalı simgeler kullan</string>
+    <string name="search_radius_title">Köşe yarıçapı</string>
+    <string name="hotseat_bg_title">Hotseat arka planı</string>
+    <string name="hotseat_bg_summary">Uygulama yuvasına yarı şeffaf bir arka plan ekleyin</string>
+    <string name="allow_wallpaper_scrolling">Duvar kağıdı kaydırma</string>
+    <string name="allow_wallpaper_scrolling_summary">Birden çok ekran için duvar kağıdı kaydırma efekti</string>
+    <string name="allow_wallpaper_zooming">Duvar kağıdı yakınlaştırma</string>
+    <string name="allow_wallpaper_zooming_summary">Çekmeceyi veya son uygulamaları kullanırken duvar kağıdını yakınlaştırın veya uzaklaştırın</string>
+    <string name="show_statusbar_title">Durum çubuğu</string>
+    <string name="show_top_shadow">Üst gölge</string>
+    <string name="row_height_title">Satır yüksekliği</string>
+    <string name="background_blur_title">Arka plan bulanıklık derinliği</string>
+    <string name="background_blur_summary">Son uygulamalar ve uygulama çekmecesi için bulanıklık derinliği seviyesini ayarlayın</string>
+    <string name="suggestion_pref_screen_title">Öneriler</string>
+    <string name="suggestion_pref_screen_desc">Tüm uygulamalar &amp; Ana ekran önerileri için</string>
+    <string name="background_opacity_title">Arka plan şeffaflığı</string>
+    <string name="recents_screenshot_title">Ekran görüntüsü</string>
+    <string name="recents_clear_all_title">Tümünü temizle</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="pref_themed_icons_title">Temalı simgeler</string>
+    <string name="pref_themed_icons_summary">Ana ekranda kullanılan temalı simgeleri takip edin</string>
+    <string name="recent_task_option_kill_app">Durdur</string>
+    <string name="recents_app_killed">Uygulama durduruldu</string>
+    <string name="meminfo_text">%1$s Kullanılabilir | %2$s Toplam</string>
+    <string name="recents_meminfo_title">Bellek bilgisi</string>
+    <string name="drawer_search_title">Uygulama arama çubuğu</string>
+    <string name="drawer_search_summary">Uygulama sayfasının üstündeki arama çubuğu</string>
+    <string name="pref_restart_title">Yeniden başlat</string>
+    <string name="pref_restart_summary">Bekleyen ayarları uygulamak için başlatıcıyı manuel olarak yeniden başlatın</string>
+    <string name="restarting_launcher">Başlatıcı yeniden başlatılıyor...</string>
+    <string name="updating_launcher_components">Başlatıcı bileşenleri güncelleniyor...</string>
+    <string name="recents_shake_clear_all_title">Tüm görevleri silmek için telefonu sallayın</string>
+    <string name="smartspace_pref_title">Bir bakışta</string>
+    <string name="smartspace_pref_summary">Akıllı alanı ana ekranın üst kısmında göster</string>
+    <string name="short_parallax_title">Kısa paralaksa izin ver</string>
+    <string name="short_parallax_summary">Duvar kağıdını kırpmak yerine daha az sayıda sayfada tam duvar kağıdı kaydırma efektini etkinleştirin</string>
+    <string name="single_page_center_title">Tek sayfayı ortalayın</string>
+    <string name="single_page_center_summary">Yalnızca tek bir sayfa kullanılıyorsa duvar kağıdını ortalayın</string>
+    <string name="pref_force_monochrome_themed_icons_title">Temalı simgelere zorla</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Temaya sahip olmayan uygulamalar için temalı simge oluştur (temalı simgelerin yeniden değiştirilmesini gerektirir)</string>
+    <string name="qsb_search_hint">Telefonunuzu ve daha fazlasını arayın…</string>
+    <string name="icon_pack_title">Simge paketi</string>
+    <string name="icon_pack_default_label">Varsayılan</string>
+    <string name="icon_pack_add">Daha fazla yükle</string>
+    <string name="icon_pack_no_market">Kullanılabilir uygulama mağazası yok</string>
+</resources>

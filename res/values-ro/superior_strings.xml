@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS Project
+     Copyright (C) 2016-2022 crDroid Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Setări ecran de pornire</string>
+    <string name="home_category_title">Ecran principal</string>
+    <string name="home_category_summary">Setează panoul Google Now și altele</string>
+    <string name="icons_category_title">Pictograme</string>
+    <string name="icons_category_summary">Setează dimensiunea pictogramelor și mai multe</string>
+    <string name="app_drawer_category_title">Listă aplicații</string>
+    <string name="app_drawer_category_summary">Personalizează lista aplicațiilor</string>
+    <string name="recents_category_title">Recente</string>
+    <string name="recents_category_summary">Renovează ecranul de prezentare generală</string>
+    <string name="misc_category_title">Diverse</string>
+    <string name="misc_category_summary">Alte opțiuni</string>
+    <string name="general_category_title">Setări generale</string>
+    <string name="interface_category_title">Interfață</string>
+    <string name="search_bar_category_title">Bară de căutare</string>
+    <string name="actions_category_title">Acțiuni rapide</string>
+    <string name="dev_options_title">Opțiuni dezvoltator</string>
+    <string name="dev_options_summary">Activează pe propriul risc unele caracteristici ascunse</string>
+    <string name="settings_lock_layout_title">Blocare aspect</string>
+    <string name="settings_lock_layout_summary_on">Pictogramele și widget-urile nu pot fi adăugate, eliminate și mutate pe ecranul principal</string>
+    <string name="settings_lock_layout_summary_off">Pictogramele și widget-urile pot fi adăugate, eliminate și mutate pe ecranul principal</string>
+    <string name="settings_edit_widgets_error">Nu este posibil de adăugat widget-uri pe ecranul de pornire</string>
+    <string name="desktop_show_labels">Etichetele pictogramelor de pe ecran principal</string>
+    <string name="drawer_show_labels">Etichetele pictogramelor în sertarul cu aplicații</string>
+    <string name="title_show_google_app">Glisează pentru a accesa aplicația Google</string>
+    <string name="msg_minus_one_on_left">Din ecranul principal, glisează în stânga pentru a deschide aplicația Google</string>
+    <string name="msg_minus_one_on_right">Din ecranul principal, glisează în dreapta pentru a deschide aplicația Google</string>
+    <string name="pref_sleep_gesture_title">Dublă atingere pentru oprire ecran</string>
+    <string name="pref_sleep_gesture_summary">Atinge de două ori spațiul gol pentru oprirea ecranului</string>
+    <string name="pause">Întrerupere</string>
+    <string name="pause_apps_dialog_title">Întrerupi %1$s?</string>
+    <string name="pause_apps_dialog_message">Notificările pentru %1$s vor fi întrerupte</string>
+    <string name="paused_apps_dialog_title">Aplicație întreruptă</string>
+    <string name="paused_apps_dialog_message">%1$s a fost întreruptă direct din lansator</string>
+    <string name="paused_apps_drop_target_label">Întrerupere aplicație</string>
+    <string name="custom_seekbar_value">Valoare: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">implicit</string>
+    <string name="custom_seekbar_default_value_to_set">Valoare implicită: <xliff:g id="v">%s</xliff:g>\nAtinge lung pentru a seta</string>
+    <string name="custom_seekbar_default_value_is_set">Valoarea implicită este setată</string>
+    <string name="icon_size_title">Dimensiune pictograme</string>
+    <string name="font_size_title">Dimensiune font</string>
+    <string name="icon_max_lines_title">Linii maxime pentru eticheta aplicației</string>
+    <string name="label_search">Căutare</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Căutare vocală</string>
+    <string name="dock_music_search_title">Căutare muzică</string>
+    <string name="dock_music_search_summary">Pornește căutarea muzicii la apăsarea pictogramei microfonului</string>
+    <string name="dock_search_title">Bara de căutare Google</string>
+    <string name="dock_search_summary">Bara de căutare în bara de jos</string>
+    <string name="dock_theme_title">Pictograme tematice</string>
+    <string name="dock_theme_summary">Folosește pictograme tematice pentru bara de căutare</string>
+    <string name="search_radius_title">Raza colțurilor</string>
+    <string name="hotseat_bg_title">Fundal andocare aplicații</string>
+    <string name="hotseat_bg_summary">Adaugă fundal translucid în andocare aplicații</string>
+    <string name="allow_wallpaper_scrolling">Derulare imagine de fundal</string>
+    <string name="allow_wallpaper_scrolling_summary">Efect de defilare a imaginii de fundal pentru mai multe ecrane</string>
+    <string name="allow_wallpaper_zooming">Mărirea imaginii de fundal</string>
+    <string name="allow_wallpaper_zooming_summary">Mărește sau micșorează imaginea de fundal când se utilizează sertarul sau aplicațiile recente</string>
+    <string name="show_statusbar_title">Bară de stare</string>
+    <string name="show_top_shadow">Umbra de sus</string>
+    <string name="row_height_title">Înălțimea rândului</string>
+    <string name="background_blur_title">Adâncime estompare fundal</string>
+    <string name="background_blur_summary">Setează nivelul de adâncime estompare pentru aplicațiile recente și lista aplicațiilor</string>
+    <string name="suggestion_pref_screen_title">Sugestii</string>
+    <string name="suggestion_pref_screen_desc">Pentru toate aplicațiile și sugestiile pentru ecranul de pornire</string>
+    <string name="background_opacity_title">Opacitatea fundalului</string>
+    <string name="recents_screenshot_title">Captură de ecran</string>
+    <string name="recents_clear_all_title">Șterge tot</string>
+    <string name="recents_lens_title">Obiectiv</string>
+    <string name="pref_themed_icons_title">Pictograme tematice</string>
+    <string name="pref_themed_icons_summary">Urmărește pictogramele tematice utilizate pe ecranul de pornire</string>
+    <string name="recent_task_option_kill_app">Oprește</string>
+    <string name="recents_app_killed">Aplicație oprită</string>
+    <string name="meminfo_text">%1$s Disponibil | %2$s Total</string>
+    <string name="recents_meminfo_title">Informații memorie</string>
+    <string name="drawer_search_title">Bara de căutare aplicații</string>
+    <string name="drawer_search_summary">Bara de căutare în partea de sus a sertarului de aplicații</string>
+    <string name="pref_restart_title">Repornește</string>
+    <string name="pref_restart_summary">Repornește lansatorul manual pentru a aplica orice setări în așteptare</string>
+    <string name="restarting_launcher">Se repornește lansatorul...</string>
+    <string name="updating_launcher_components">Actualizarea componentelor lansatorului...</string>
+    <string name="recents_shake_clear_all_title">Scutură telefonul pentru a șterge toate aplicațiile recente</string>
+    <string name="smartspace_pref_title">Pe scurt</string>
+    <string name="smartspace_pref_summary">Arată spațiul inteligent în partea de sus a ecranului principal</string>
+    <string name="short_parallax_title">Permite paralax scurt</string>
+    <string name="short_parallax_summary">Activează efectul complet de defilare a imaginii de fundal pe un număr mic de pagini în loc să fie decupată imaginea de fundal</string>
+    <string name="single_page_center_title">Centrare pagină unică</string>
+    <string name="single_page_center_summary">Se centrează imaginea de fundal dacă se utilizează doar o singură pagină</string>
+    <string name="pref_force_monochrome_themed_icons_title">Forțează pictogramele tematice</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Generează pictogramă tematică pentru aplicațiile care nu au una (necesită re-comutarea pictogramelor tematice)</string>
+    <string name="qsb_search_hint">Caută pe acest telefon și multe alte…</string>
+    <string name="icon_pack_title">Pachet de pictograme</string>
+    <string name="icon_pack_default_label">Implicit</string>
+    <string name="icon_pack_add">Instalează mai multe</string>
+    <string name="icon_pack_no_market">Nu există niciun magazin de aplicații disponibil</string>
+</resources>
