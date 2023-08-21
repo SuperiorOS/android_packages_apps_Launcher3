@@ -96,8 +96,6 @@
     <string name="restarting_launcher">Yenidən başladılır...</string>
     <string name="updating_launcher_components">Başladıcı komponentləri güncəllənir...</string>
     <string name="recents_shake_clear_all_title">Bütün tapşırıqları təmizləmək üçün telefonu silkələ</string>
-    <string name="smartspace_pref_title">Bir baxışda</string>
-    <string name="smartspace_pref_summary">Smartspace-i əsas ekranın üst hissəsində göstər</string>
     <string name="short_parallax_title">Qısa paralaksa icazə ver</string>
     <string name="short_parallax_summary">Divar kağızını kəsmək əvəzinə daha az sayda səhifədə tam divar kağızı sürüşdürmə effektini fəallaşdırın</string>
     <string name="single_page_center_title">Tək səhifə mərkəzi</string>

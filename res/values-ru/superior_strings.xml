@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_title">Настройки главного экрана</string>
+    <string name="settings_title">Главный экран</string>
     <string name="home_category_title">Главный экран</string>
     <string name="home_category_summary">Установить панель Google сейчас и многое другое</string>
-    <string name="icons_category_title">Иконки</string>
+    <string name="icons_category_title">Значки</string>
     <string name="icons_category_summary">Установить размер иконок</string>
     <string name="app_drawer_category_title">Сетка приложений</string>
     <string name="app_drawer_category_summary">Настройте меню приложений по своему вкусу</string>
@@ -96,8 +96,6 @@
     <string name="restarting_launcher">Перезапуск лаунчера...</string>
     <string name="updating_launcher_components">Обновление компонентов лаунчера...</string>
     <string name="recents_shake_clear_all_title">Встряхнуть, для очистки всех задач</string>
-    <string name="smartspace_pref_title">Самое главное</string>
-    <string name="smartspace_pref_summary">Отображать умное пространство в верхней части главного экрана</string>
     <string name="short_parallax_title">Разрешить короткий параллакс</string>
     <string name="short_parallax_summary">Включить эффект прокрутки всех обоев на меньшее количество страниц вместо обрезки обоев</string>
     <string name="single_page_center_title">Центр одной страницы</string>

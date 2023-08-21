@@ -96,8 +96,6 @@
     <string name="restarting_launcher">重新启动启动器</string>
     <string name="updating_launcher_components">正在更新启动器组件...</string>
     <string name="recents_shake_clear_all_title">摇晃手机清除所有任务</string>
-    <string name="smartspace_pref_title">速览</string>
-    <string name="smartspace_pref_summary">在主屏幕顶部显示速览</string>
     <string name="short_parallax_title">壁纸滚动</string>
     <string name="short_parallax_summary">对数量较少的页面启用完整的壁纸滚动效果，而不是裁剪壁纸</string>
     <string name="single_page_center_title">单页居中</string>

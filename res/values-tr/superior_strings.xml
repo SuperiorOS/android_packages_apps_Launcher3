@@ -96,8 +96,6 @@
     <string name="restarting_launcher">Başlatıcı yeniden başlatılıyor...</string>
     <string name="updating_launcher_components">Başlatıcı bileşenleri güncelleniyor...</string>
     <string name="recents_shake_clear_all_title">Tüm görevleri silmek için telefonu sallayın</string>
-    <string name="smartspace_pref_title">Bir bakışta</string>
-    <string name="smartspace_pref_summary">Akıllı alanı ana ekranın üst kısmında göster</string>
     <string name="short_parallax_title">Kısa paralaksa izin ver</string>
     <string name="short_parallax_summary">Duvar kağıdını kırpmak yerine daha az sayıda sayfada tam duvar kağıdı kaydırma efektini etkinleştirin</string>
     <string name="single_page_center_title">Tek sayfayı ortalayın</string>

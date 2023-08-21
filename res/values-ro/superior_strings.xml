@@ -96,8 +96,6 @@
     <string name="restarting_launcher">Se repornește lansatorul...</string>
     <string name="updating_launcher_components">Actualizarea componentelor lansatorului...</string>
     <string name="recents_shake_clear_all_title">Scutură telefonul pentru a șterge toate aplicațiile recente</string>
-    <string name="smartspace_pref_title">Pe scurt</string>
-    <string name="smartspace_pref_summary">Arată spațiul inteligent în partea de sus a ecranului principal</string>
     <string name="short_parallax_title">Permite paralax scurt</string>
     <string name="short_parallax_summary">Activează efectul complet de defilare a imaginii de fundal pe un număr mic de pagini în loc să fie decupată imaginea de fundal</string>
     <string name="single_page_center_title">Centrare pagină unică</string>

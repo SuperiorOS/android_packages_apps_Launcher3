@@ -96,8 +96,6 @@
     <string name="restarting_launcher">Restartuji spouštěč...</string>
     <string name="updating_launcher_components">Aktualizuji komponenty spouštěče...</string>
     <string name="recents_shake_clear_all_title">Vymazat všechny úlohy zatřepáním telefonem</string>
-    <string name="smartspace_pref_title">Přehled událostí</string>
-    <string name="smartspace_pref_summary">Zobrazení inteligentního prostoru v horní části domovské obrazovky</string>
     <string name="short_parallax_title">Povolit krátkou paralaxu</string>
     <string name="short_parallax_summary">Povolit efekt posouvání celé tapety na menším počtu stránek namísto oříznutí tapety</string>
     <string name="single_page_center_title">Střed jedné stránky</string>

@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_title">Configurações da tela inical</string>
     <string name="home_category_title">Tela inicial</string>
-    <string name="home_category_summary">Definir o Google Now e muito mais</string>
+    <string name="home_category_summary">Definir o Google Now no painel e muito mais</string>
     <string name="icons_category_title">Ícones</string>
     <string name="icons_category_summary">Definir tamanho do ícone e muito mais</string>
     <string name="app_drawer_category_title">Gaveta de aplicativos</string>
@@ -25,7 +25,7 @@
     <string name="recents_category_title">Recentes</string>
     <string name="recents_category_summary">Renove a tela de visão geral</string>
     <string name="misc_category_title">Diversos</string>
-    <string name="misc_category_summary">Outras Opções</string>
+    <string name="misc_category_summary">Outras opções</string>
     <string name="general_category_title">Gerais</string>
     <string name="interface_category_title">Interface</string>
     <string name="search_bar_category_title">Barra de pesquisa</string>
@@ -87,7 +87,7 @@
     <string name="pref_themed_icons_summary">Usar os mesmos ícones do tema da tela de início</string>
     <string name="recent_task_option_kill_app">Encerrar</string>
     <string name="recents_app_killed">Aplicativo encerrado</string>
-    <string name="meminfo_text">%1$s Disponível - %2$s Total</string>
+    <string name="meminfo_text">%1$s Disponível | %2$s Total</string>
     <string name="recents_meminfo_title">Informações da memória</string>
     <string name="drawer_search_title">Barra de pesquisa de aplicativos</string>
     <string name="drawer_search_summary">Barra de pesquisa na parte superior da gaveta de aplicativos</string>
@@ -96,15 +96,13 @@
     <string name="restarting_launcher">Reiniciando o launcher...</string>
     <string name="updating_launcher_components">Atualizando componentes do launcher...</string>
     <string name="recents_shake_clear_all_title">Agite o telefone para limpar todas as tarefas</string>
-    <string name="smartspace_pref_title">Resumo</string>
-    <string name="smartspace_pref_summary">Mostrar espaço inteligente na parte superior da tela inicial</string>
     <string name="short_parallax_title">Permitir sobreposição curta</string>
     <string name="short_parallax_summary">Ativar o efeito de rolagem de papel de parede completo em um número menor de páginas, em vez de cortar o papel de parede</string>
     <string name="single_page_center_title">Página única centralizada</string>
     <string name="single_page_center_summary">Centraliza o papel de parede ao usar apenas uma página</string>
     <string name="pref_force_monochrome_themed_icons_title">Forçar ícones temáticos</string>
     <string name="pref_force_monochrome_themed_icons_summary">Gerar novos ícones com tema para aplicativos que não possuem um (alterne novamente o interruptor de ícones temáticos)</string>
-    <string name="qsb_search_hint">Pesquisar no telefone e mais…</string>
+    <string name="qsb_search_hint">Pesquisar neste telefone e mais…</string>
     <string name="icon_pack_title">Pacote de ícones</string>
     <string name="icon_pack_default_label">Padrão</string>
     <string name="icon_pack_add">Instalar mais</string>
