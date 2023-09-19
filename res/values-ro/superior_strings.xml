@@ -28,6 +28,7 @@
     <string name="misc_category_summary">Alte opțiuni</string>
     <string name="general_category_title">Setări generale</string>
     <string name="interface_category_title">Interfață</string>
+    <string name="quickspace_category_title">Spațiu rapid</string>
     <string name="search_bar_category_title">Bară de căutare</string>
     <string name="actions_category_title">Acțiuni rapide</string>
     <string name="dev_options_title">Opțiuni dezvoltator</string>
@@ -107,4 +108,136 @@
     <string name="icon_pack_default_label">Implicit</string>
     <string name="icon_pack_add">Instalează mai multe</string>
     <string name="icon_pack_no_market">Nu există niciun magazin de aplicații disponibil</string>
+    <string name="show_quickspace_title">Pe scurt</string>
+    <string name="show_quickspace_summary">Arată în partea de sus a ecranului de pornire</string>
+    <string name="quickspace_grt_morning">Bună dimineața.</string>
+    <string name="quickspace_grt_evening">Bună seara.</string>
+    <string name="quickspace_grt_afternoon">Bună ziua.</string>
+    <string name="quickspace_grt_night">Noapte bună.</string>
+    <string name="quickspace_grt_midnight">Miezul nopții fericit.</string>
+    <string name="quickspace_grt_general">O zi bună.</string>
+    <string name="quickspace_ext_one">Astăzi este</string>
+    <string name="quickspace_ext_two">Este</string>
+    <string name="quickspace_ext_three">Este</string>
+    <string name="qe_now_playing_unknown_artist">Artist necunoscut</string>
+    <string name="qe_now_playing_ext_one">Se redă acum</string>
+    <string name="qe_now_playing_by">De</string>
+    <string name="quickspace_now_playing_title">Se redă acum</string>
+    <string name="quickspace_now_playing_summary">Arată melodia care este redată</string>
+    <string name="quickspace_alternate_style_title">Stil extins</string>
+    <string name="quickspace_alternate_style_summary">Comută la stilul extins</string>
+    <string name="quickspace_psa_title">Mesajele aleatorii</string>
+    <string name="quickspace_psa_summary">Fă-ți prietenul tău mai dinamic cu mesaje aleatoare</string>
+    <string-array name="quickspace_psa_morning">
+        <item>O mică plimbare pare plăcută.</item>
+        <item>Spală-te pe dinți cu atenție.</item>
+        <item>Începe ziua hidratat!</item>
+        <item>Fă niște exerciții!</item>
+        <item>Întinde lucrurile afară!</item>
+        <item>Începe ziua pozitiv.</item>
+        <item>Este o dimineață frumoasă!</item>
+        <item>Verifică întotdeauna nivelul bateriei dispozitivului!</item>
+        <item>Nu uita să pregătești micul dejun.</item>
+        <item>Verifică vremea pentru orice eventualitate.</item>
+        <item>Nu uita să verifici notițele!</item>
+        <item>Verifică întotdeauna e-mailul/mesajele.</item>
+        <item>Verifică programul dacă ai unul.</item>
+        <item>Mult noroc astăzi!</item>
+        <item>Comutarea comutatorului poate remedia răspunsurile blocate.</item>
+        <item>Începe ziua cu orice băutură fierbinte.</item>
+        <item>Nu uita de proteine.</item>
+        <item>Ouăle fac un mic dejun simplu și hrănitor.</item>
+        <item>Bucură-te de micul dejun.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Nu uita să rămâi hidratat!</item>
+        <item>Amintește-ți să iei niște gustări.</item>
+        <item>Razele UV sunt mai dăunătoare după-amiaza.</item>
+        <item>E după-amiază.</item>
+        <item>Verifică întotdeauna nivelul bateriei dispozitivului!</item>
+        <item>Nu uita să vă verifici e-mailul/mesajele.</item>
+        <item>Verifică lista de lucruri de făcut dacă ai una.</item>
+        <item>Nu uita să pregătești cina.</item>
+        <item>Bucură-te de zi.</item>
+        <item>Rezistă! Ziua este aproape gata!</item>
+        <item>Distrează-te.</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Rămâi mereu hidratat!</item>
+        <item>8 ore de somn sunt obligatorii.</item>
+        <item>E seară.</item>
+        <item>Amintește-ți să mă încarci complet înainte de a adormi.</item>
+        <item>Nu uita să vă verifici e-mailul/mesajele.</item>
+        <item>Verifică lista de lucruri de făcut dacă ai una.</item>
+        <item>Nu uita să iei cina.</item>
+        <item>Verifică întotdeauna luminile și prizele.</item>
+        <item>Bucură-te de noapte.</item>
+        <item>Hei! Odihnește-te!</item>
+        <item>Relaxează-te și odihnește-te puțin.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Nu bea prea multă apă înainte de culcare.</item>
+        <item>E seară.</item>
+        <item>Încearcă să eviți încărcarea peste noapte, dacă este posibil.</item>
+        <item>Nu uita să vă verifici e-mailul/mesajele.</item>
+        <item>Verifică lista de lucruri de făcut dacă ai una.</item>
+        <item>Nu uita să iei cina.</item>
+        <item>8 ore de somn sunt obligatorii.</item>
+        <item>Bucură-te de noapte.</item>
+        <item>Lugaw este o rețetă drăguță pentru cină.</item>
+        <item>Bucură-te de somn.</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Deficitul de somn este dăunător pentru sănătatea ta.</item>
+        <item>Nu uita să rămâi hidratat.</item>
+        <item>Deficitul de somn poate înterupe producția de melatonină.</item>
+        <item>Este miezul nopții.</item>
+        <item>Somnul cu întârziere nu este sănătos.</item>
+        <item>Trebuie să dormi acum.</item>
+        <item>Nu uita să dormi/pregătești micul dejun.</item>
+        <item>Bucură-te de miezul nopții.</item>
+        <item>Deficiența de somn afectează ceasul corporal.</item>
+        <item>Ai grijă de tine.</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Există ouă de Paște ascunse în acest ROM.</item>
+        <item>Încearcă să verifici setările meteo.</item>
+        <item>Încearcă să eviți razele UV în timpul prânzului.</item>
+        <item>Rămâi Hidratat!</item>
+        <item>Pringles nu sunt de fapt chipsuri de cartofi..</item>
+        <item>Râsul poate crește fluxul sangvin.</item>
+        <item>Cafeaua conține antioxidanți.</item>
+        <item>Ketchup era cândva vândut ca medicament.</item>
+        <item>Bumbacul a fost inventat de un dentist.</item>
+        <item>Nu omite masa!</item>
+        <item>Nu uita să verifici nivelul bateriei dispozitivului!</item>
+        <item>Verifică-ți e-mailul/mesajele.</item>
+        <item>Verifică lista de lucruri de făcut dacă ai una.</item>
+        <item>Poți dezactiva spațiul rapid în setările lansatorului.</item>
+        <item>Du-te să le obții!</item>
+        <item>E timpul să cumperi niște orez!</item>
+        <item>E timpul pentru prânz!</item>
+        <item>Kalamay este făcut din orez glutinos.</item>
+        <item>Tot orezul alb începe brun.</item>
+        <item>Vrei niște sifon?</item>
+        <item>Ia întotdeauna apă pentru a te menține hidratat.</item>
+        <item>Spațiul miroase a friptură prăjită..</item>
+        <item>Bucură-te de zi!</item>
+    </string-array>
+    <string name="quick_event_ambient_weather_title">Condiții meteo</string>
+    <string name="quick_event_ambient_weather_summary">Afișează starea meteo curentă și temperatura</string>
+    <string name="quick_event_ambient_weather_enabled_info">Necesită activarea serviciilor meteo</string>
+    <string name="quick_event_ambient_detailed_weather_title">Condiții meteo detaliate</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Afișează condițiile meteo detaliate și temperatura</string>
+    <string name="pref_quickspace_city_title">Orașul actual</string>
+    <string name="pref_quickspace_city_summary">Afișează orașul actual</string>
+    <string name="cloudy">Predominant înnourat</string>
+    <string name="rainy">În mare parte ploios</string>
+    <string name="sunny">Predominant însorit</string>
+    <string name="stormy">Furtună în mare parte</string>
+    <string name="snowy">În mare parte zăpadă</string>
+    <string name="windy">Preponderent vânt</string>
+    <string name="misty">În cea mai mare parte, ceață</string>
+    <string name="today">Astăzi</string>
+    <string name="intent_no_app_clock_found">Nu s-a găsit activitatea calendar sau ceas</string>
 </resources>

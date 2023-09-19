@@ -28,6 +28,7 @@
     <string name="misc_category_summary">Outras opções</string>
     <string name="general_category_title">Gerais</string>
     <string name="interface_category_title">Interface</string>
+    <string name="quickspace_category_title">Espaço rápido</string>
     <string name="search_bar_category_title">Barra de pesquisa</string>
     <string name="actions_category_title">Ações rápidas</string>
     <string name="dev_options_title">Opções de desenvolvedor</string>
@@ -107,4 +108,136 @@
     <string name="icon_pack_default_label">Padrão</string>
     <string name="icon_pack_add">Instalar mais</string>
     <string name="icon_pack_no_market">Não há uma loja de aplicativos disponível</string>
+    <string name="show_quickspace_title">Resumo</string>
+    <string name="show_quickspace_summary">Mostrar no topo da tela inicial</string>
+    <string name="quickspace_grt_morning">Bom dia.</string>
+    <string name="quickspace_grt_evening">Boa noite.</string>
+    <string name="quickspace_grt_afternoon">Boa tarde.</string>
+    <string name="quickspace_grt_night">Boa noite.</string>
+    <string name="quickspace_grt_midnight">Feliz meia-noite.</string>
+    <string name="quickspace_grt_general">Bom dia.</string>
+    <string name="quickspace_ext_one">Hoje é</string>
+    <string name="quickspace_ext_two">Está</string>
+    <string name="quickspace_ext_three">Está</string>
+    <string name="qe_now_playing_unknown_artist">Artista Desconhecido</string>
+    <string name="qe_now_playing_ext_one">Reproduzindo agora</string>
+    <string name="qe_now_playing_by">Por</string>
+    <string name="quickspace_now_playing_title">Reproduzindo agora</string>
+    <string name="quickspace_now_playing_summary">Mostrar a música que você está tocando</string>
+    <string name="quickspace_alternate_style_title">Estilo estendido</string>
+    <string name="quickspace_alternate_style_summary">Mudar para estilo estendido</string>
+    <string name="quickspace_psa_title">Mensagens aleatórias</string>
+    <string name="quickspace_psa_summary">Torne seu companheiro mais animado com mensagens aleatórias</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Uma pequena caminhada parece legal.</item>
+        <item>Escove os dentes de forma mental.</item>
+        <item>Inicie o seu dia hidratado!</item>
+        <item>Faça algum exercício!</item>
+        <item>Alongue as coisas!</item>
+        <item>Comece seu dia com positividade.</item>
+        <item>Uma bela manhã!</item>
+        <item>Lembre-se de verificar os níveis de bateria do dispositivo!</item>
+        <item>Não se esqueça de preparar o café da manhã.</item>
+        <item>Verifique o tempo, só por precaução.</item>
+        <item>Não se esqueça de verificar suas anotações!</item>
+        <item>Sempre verifique seus e-mails/mensagens.</item>
+        <item>Verifique sua programação se tiver uma.</item>
+        <item>Boa sorte hoje!</item>
+        <item>Alternar o interruptor pode corrigir respostas encalhadas.</item>
+        <item>Começa o dia com qualquer bebida quente.</item>
+        <item>Não se esqueça de proteínas.</item>
+        <item>Ovos fazem um café da manhã simples e nutritivo.</item>
+        <item>Aproveite seu café da manhã.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Não se esqueça de ficar hidratado!</item>
+        <item>Lembre-se de comer alguns lanches.</item>
+        <item>Os raios UV são mais nocivos à tarde.</item>
+        <item>É tarde agora.</item>
+        <item>Lembre-se de verificar os níveis de bateria do dispositivo!</item>
+        <item>Lembre-se de verificar seus e-mails/mensagens.</item>
+        <item>Por favor, verifique sua lista de tarefas se tiver uma.</item>
+        <item>Não se esqueça de preparar o seu jantar.</item>
+        <item>Aproveite seu dia.</item>
+        <item>Espere! O dia está quase pronto!</item>
+        <item>Divirta-se um pouco.</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Fique sempre hidratado!</item>
+        <item>8 horas de sono é indispensável.</item>
+        <item>É noite agora.</item>
+        <item>Lembre-se de me carregar completamente antes de dormir.</item>
+        <item>Lembre-se de verificar seus e-mails/mensagens.</item>
+        <item>Por favor, verifique sua lista de tarefas se tiver uma.</item>
+        <item>Lembre-se de jantar.</item>
+        <item>Sempre verifique as luzes e os sockets.</item>
+        <item>Aproveite a noite.</item>
+        <item>Ei! Descanse um pouco!</item>
+        <item>Relaxe e descanse um pouco.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Não tome muita água antes de dormir.</item>
+        <item>É noite agora.</item>
+        <item>Tente evitar o carregamento durante a noite se possível.</item>
+        <item>Lembre-se de verificar seus e-mails/mensagens.</item>
+        <item>Por favor, verifique sua lista de tarefas se tiver uma.</item>
+        <item>Lembre-se de jantar.</item>
+        <item>8 horas de sono é indispensável.</item>
+        <item>Aproveite a noite.</item>
+        <item>Lugaw é uma boa receita para o jantar.</item>
+        <item>Aproveite seu sono.</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>A defficiência do sono faz mal à saúde.</item>
+        <item>Não se esqueça de ficar hidratado.</item>
+        <item>Ser défice de sono pode quebrar a produção melatonina.</item>
+        <item>Agora é meia-noite.</item>
+        <item>Dormir tarde não é saudável.</item>
+        <item>Você precisa dormir agora.</item>
+        <item>Não se esqueça de dormir/preparar o seu café da manhã.</item>
+        <item>Aproveite a meia-noite.</item>
+        <item>A deficiência nos sonos afeta o relógio no corpo.</item>
+        <item>Por favor, cuide-se de si mesmo.</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Há surpresas escondidas nesta ROM.</item>
+        <item>Tente verificar as configurações do clima.</item>
+        <item>Tente evitar raios UV ao meio-dia.</item>
+        <item>Fique hidratado!</item>
+        <item>As impressoras não são realmente batatas fritas..</item>
+        <item>Rir pode aumentar o fluxo de sangue.</item>
+        <item>Café contém antioxidantes.</item>
+        <item>Ketchup já foi vendido como remédio.</item>
+        <item>O algodão-doce foi inventado por um dentista.</item>
+        <item>Não pule sua refeição!</item>
+        <item>Lembre-se de verificar os níveis de bateria do dispositivo!</item>
+        <item>Verifique seu e-mail/mensagens.</item>
+        <item>Verifique sua lista de afazeres se tiver uma.</item>
+        <item>Você pode desativar o Acesso Rápido através das configurações de início.</item>
+        <item>Você consegue!</item>
+        <item>Hora de comprar arroz!</item>
+        <item>Hora de almoçar!</item>
+        <item>Kalamay é feito de arroz glúinoso.</item>
+        <item>Todo o arroz branco começa marrom.</item>
+        <item>Quer um pouco de refrigerante?</item>
+        <item>Leve sempre água para permanecer hidratado.</item>
+        <item>Espaço tem cheiro de bife costado..</item>
+        <item>Aproveite seu dia!</item>
+    </string-array>
+    <string name="quick_event_ambient_weather_title">Condições climáticas</string>
+    <string name="quick_event_ambient_weather_summary">Mostrar a condição atual do clima e temperatura</string>
+    <string name="quick_event_ambient_weather_enabled_info">Requer que o serviço de clima esteja habilitado</string>
+    <string name="quick_event_ambient_detailed_weather_title">Condição meteorológica detalhada</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Mostrar a condição atual do clima e temperatura</string>
+    <string name="pref_quickspace_city_title">Cidade Atual</string>
+    <string name="pref_quickspace_city_summary">Exibir cidade atual</string>
+    <string name="cloudy">Predominantemente nublado</string>
+    <string name="rainy">Predominantemente chuvoso</string>
+    <string name="sunny">Predominantemente ensolarado</string>
+    <string name="stormy">Predominantemente tempestuoso</string>
+    <string name="snowy">Predominantemente com neve</string>
+    <string name="windy">Predominantemente ventoso</string>
+    <string name="misty">Predominantemente enevoado</string>
+    <string name="today">Hoje</string>
+    <string name="intent_no_app_clock_found">Não foi possível encontrar o calendário ou a atividade do relógio</string>
 </resources>

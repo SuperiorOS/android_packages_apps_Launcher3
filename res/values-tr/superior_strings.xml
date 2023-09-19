@@ -28,6 +28,7 @@
     <string name="misc_category_summary">Diğer seçenekler</string>
     <string name="general_category_title">Genel</string>
     <string name="interface_category_title">Arayüz</string>
+    <string name="quickspace_category_title">Hızlı alan</string>
     <string name="search_bar_category_title">Arama çubuğu</string>
     <string name="actions_category_title">Hızlı eylemler</string>
     <string name="dev_options_title">Geliştirici seçenekleri</string>
@@ -107,4 +108,136 @@
     <string name="icon_pack_default_label">Varsayılan</string>
     <string name="icon_pack_add">Daha fazla yükle</string>
     <string name="icon_pack_no_market">Kullanılabilir uygulama mağazası yok</string>
+    <string name="show_quickspace_title">Bir bakışta</string>
+    <string name="show_quickspace_summary">Ana ekranınızın üst kısmında göster</string>
+    <string name="quickspace_grt_morning">Günaydın.</string>
+    <string name="quickspace_grt_evening">İyi akşamlar.</string>
+    <string name="quickspace_grt_afternoon">Tünaydın.</string>
+    <string name="quickspace_grt_night">İyi geceler.</string>
+    <string name="quickspace_grt_midnight">Mutlu geceler.</string>
+    <string name="quickspace_grt_general">İyi günler.</string>
+    <string name="quickspace_ext_one">Bugün</string>
+    <string name="quickspace_ext_two">Bu</string>
+    <string name="quickspace_ext_three">Bu</string>
+    <string name="qe_now_playing_unknown_artist">Bilinmeyen sanatçı</string>
+    <string name="qe_now_playing_ext_one">Şimdi oynatılıyor</string>
+    <string name="qe_now_playing_by">Tarafından</string>
+    <string name="quickspace_now_playing_title">Şimdi oynatılıyor</string>
+    <string name="quickspace_now_playing_summary">Çalmakta olduğunuz şarkıyı gösterin</string>
+    <string name="quickspace_alternate_style_title">Genişletilmiş stil</string>
+    <string name="quickspace_alternate_style_summary">Genişletilmiş stile geçin</string>
+    <string name="quickspace_psa_title">Rastgele mesajlar</string>
+    <string name="quickspace_psa_summary">Rastgele mesajlarla arkadaşlığınızı daha canlı hale getirin</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Biraz yürüyüş iyi geliyor.</item>
+        <item>Dişlerinizi dikkatli bir şekilde fırçalayın.</item>
+        <item>Güne sulu başlayın!</item>
+        <item>Biraz egzersiz yap!</item>
+        <item>İşleri uzatın!</item>
+        <item>Güne pozitif başlayın.</item>
+        <item>Güzel bir sabah!</item>
+        <item>Her zaman cihazın pil seviyelerini kontrol edin!</item>
+        <item>Kahvaltı hazırlamayı unutmayın.</item>
+        <item>Her ihtimale karşı hava durumunu kontrol edin.</item>
+        <item>Notlarınızı kontrol etmeyi unutmayın!</item>
+        <item>Her zaman e-postanızı/mesajlarınızı kontrol edin.</item>
+        <item>Programınız varsa kontrol edin.</item>
+        <item>Bugün iyi şanslar!</item>
+        <item>Anahtarın değiştirilmesi, takılan yanıtları düzeltebilir.</item>
+        <item>Güne herhangi bir sıcak içecekle başlayın.</item>
+        <item>Protein almayı unutma.</item>
+        <item>Yumurtalar basit, besleyici bir kahvaltı yapar.</item>
+        <item>Kahvaltının tadını çıkar.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Sulu kalmayı unutmayın!</item>
+        <item>Biraz atıştırmalık yemeyi unutma.</item>
+        <item>UV ışınları öğleden sonra daha zararlıdır.</item>
+        <item>Şu an öğleden sonra.</item>
+        <item>Her zaman cihazın pil seviyelerini kontrol edin!</item>
+        <item>E-postanızı/mesajlarınızı kontrol etmeyi unutmayın.</item>
+        <item>Lütfen yapılacaklar listeniz varsa kontrol edin.</item>
+        <item>Akşam yemeğinizi hazırlamayı unutmayın.</item>
+        <item>Günün tadını çıkarın.</item>
+        <item>Dayanın! Gün neredeyse bitti!</item>
+        <item>Biraz eğlen.</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Her zaman sulu kalın!</item>
+        <item>8 saat uyku şarttır.</item>
+        <item>Şu anda akşam.</item>
+        <item>Uyumadan önce beni tamamen şarj etmeyi unutma.</item>
+        <item>E-postanızı/mesajlarınızı kontrol etmeyi unutmayın.</item>
+        <item>Lütfen yapılacaklar listeniz varsa kontrol edin.</item>
+        <item>Akşam yemeği yemeyi unutma.</item>
+        <item>Her zaman ışıkları ve prizleri kontrol edin.</item>
+        <item>Gecenin tadını çıkart.</item>
+        <item>Selam! Kendini biraz dinlendir!</item>
+        <item>Rahatlayın ve biraz dinlenin.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Uyumadan önce çok fazla su içmeyin.</item>
+        <item>Şu anda akşam.</item>
+        <item>Mümkünse gece şarj etmekten kaçının.</item>
+        <item>E-postanızı/mesajlarınızı kontrol etmeyi unutmayın.</item>
+        <item>Lütfen yapılacaklar listeniz varsa kontrol edin.</item>
+        <item>Akşam yemeği yemeyi unutma.</item>
+        <item>8 saat uyku şarttır.</item>
+        <item>Gecenin tadını çıkart.</item>
+        <item>Lugaw akşam yemeği için güzel bir tarif.</item>
+        <item>Uykunuzun tadını çıkarın.</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Uyku eksikliği sağlığınız için kötüdür.</item>
+        <item>Sulu kalmayı unutmayın.</item>
+        <item>Uyku eksikliği melatonin üretimini bozabilir.</item>
+        <item>Şu anda gece yarısı.</item>
+        <item>Geç uyumak sağlıklı değildir.</item>
+        <item>Şimdi uyuman gerek.</item>
+        <item>Uyumayı/kahvaltınızı hazırlamayı unutmayın.</item>
+        <item>Gece yarısının tadını çıkarın.</item>
+        <item>Uyku eksikliği vücut saatinizi etkiler.</item>
+        <item>Kendinize dikkat edin.</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Bu ROM\'da gizlenmiş paskalya yumurtaları var.</item>
+        <item>Hava durumu ayarlarını kontrol etmeyi deneyin.</item>
+        <item>Öğle saatlerinde UV ışınlarından kaçınmaya çalışın.</item>
+        <item>Susuz Kalma!</item>
+        <item>Pringles aslında patates cipsi değil..</item>
+        <item>Gülmek kan akışını artırabilir.</item>
+        <item>Kahve antioksidanlar içerir.</item>
+        <item>Ketçap bir zamanlar ilaç olarak satılıyordu.</item>
+        <item>Pamuk şekeri bir diş hekimi icat etti.</item>
+        <item>Öğününüzü atlamayın!</item>
+        <item>Cihazın pil seviyelerini kontrol etmeyi unutmayın!</item>
+        <item>E-postanızı/mesajlarınızı kontrol edin.</item>
+        <item>Yapılacaklar listeniz varsa kontrol edin.</item>
+        <item>Quickspace\'i ana ekran ayarlarından devre dışı bırakabilirsiniz.</item>
+        <item>Git al onları!</item>
+        <item>Biraz pirinç alma zamanı!</item>
+        <item>Öğle yemeği vakti!</item>
+        <item>Kalamay yapışkan pirinçten yapılır.</item>
+        <item>Tüm beyaz pirinç kahverengi başlar.</item>
+        <item>Soda ister misin?</item>
+        <item>Sulu kalmak için daima su getirin.</item>
+        <item>Uzay kavrulmuş biftek gibi kokuyor..</item>
+        <item>Günün tadını çıkarın!</item>
+    </string-array>
+    <string name="quick_event_ambient_weather_title">Hava koşulları</string>
+    <string name="quick_event_ambient_weather_summary">Mevcut hava durumunu ve sıcaklığı göster</string>
+    <string name="quick_event_ambient_weather_enabled_info">Hava durumu hizmetinin etkinleştirilmesi gerekir</string>
+    <string name="quick_event_ambient_detailed_weather_title">Ayrıntılı Hava durumu</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Ayrıntılı hava durumunu ve sıcaklığı görüntüleyin</string>
+    <string name="pref_quickspace_city_title">Mevcut Şehir</string>
+    <string name="pref_quickspace_city_summary">Mevcut şehri görüntüle</string>
+    <string name="cloudy">Çoğunlukla Bulutlu</string>
+    <string name="rainy">Çoğunlukla yağmurlu</string>
+    <string name="sunny">Çoğunlukla güneşli</string>
+    <string name="stormy">Çoğunlukla fırtınalı</string>
+    <string name="snowy">Çoğunlukla karlı</string>
+    <string name="windy">Çoğunlukla rüzgarlı</string>
+    <string name="misty">Çoğunlukla sisli</string>
+    <string name="today">Bugün</string>
+    <string name="intent_no_app_clock_found">Takvim veya saat etkinliği bulunamıyor</string>
 </resources>
