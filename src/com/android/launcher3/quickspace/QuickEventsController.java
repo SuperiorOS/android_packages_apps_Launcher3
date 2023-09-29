@@ -139,7 +139,7 @@ public class QuickEventsController {
         mWelcomeStr = mContext.getResources().getStringArray(R.array.welcome_message_variants);
         mEventTitleSub = mWelcomeStr[getLuckyNumber(0,mWelcomeStr.length - 1)];
         mGreetings = mContext.getResources().getString(R.string.quickspace_grt_general);
-        mClockExt = mContext.getResources().getString(R.string.quickspace_ext_three);
+        mClockExt = mContext.getResources().getString(R.string.quickspace_ext_two);
 
         mEventTitleSubAction = new OnClickListener() {
             @Override
@@ -183,7 +183,7 @@ public class QuickEventsController {
         
         mEventTitle = mNowPlayingTitle;
         mGreetings = mContext.getResources().getString(R.string.qe_now_playing_ext_one);
-        mClockExt = mContext.getResources().getString(R.string.qe_now_playing_ext_two);
+        mClockExt = "";
         if (mNowPlayingArtist == null ) {
             mEventTitleSub = mContext.getResources().getString(R.string.qe_now_playing_unknown_artist);
         } else {
@@ -303,9 +303,9 @@ public class QuickEventsController {
             mClockExt = mContext.getResources().getString(R.string.quickspace_ext_two);
         } else if (hourOfDay >= 21 && hourOfDay <= 23) {
             mGreetings = mContext.getResources().getString(R.string.quickspace_grt_night);
-            mClockExt = mContext.getResources().getString(R.string.quickspace_ext_three);
+            mClockExt = mContext.getResources().getString(R.string.quickspace_ext_two);
         } else if (hourOfDay >= 0 && hourOfDay <= 3) {
-            mGreetings = mContext.getResources().getString(R.string.quickspace_grt_midnight);
+            mGreetings = mContext.getResources().getString(R.string.quickspace_grt_night);
             mClockExt = mContext.getResources().getString(R.string.quickspace_ext_two);
         } else {
             mGreetings = mContext.getResources().getString(R.string.quickspace_grt_general);
