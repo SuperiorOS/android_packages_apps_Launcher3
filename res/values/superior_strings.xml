@@ -234,7 +234,7 @@
 
     <string-array name="quickspace_psa_morning">
         <item>A little walk seems nice.</item>
-        <item>Brush your teeth mindfully.</item>
+        <item>Brush your teeth with care.</item>
         <item>Start your day hydrated!</item>
         <item>Get some exercise!</item>
         <item>Stretch things out!</item>
@@ -290,6 +290,8 @@
         <item>Enjoy the night.</item>
         <item>Lugaw is a nice recipe for dinner.</item>
         <item>Enjoy your sleep.</item>
+        <item>Allow your phone to rest while you have lunch.</item>
+        <item>Avoid phone before bedtime for better sleep.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Sleep defficiency is bad for your health.</item>
@@ -302,6 +304,7 @@
         <item>Enjoy the midnight.</item>
         <item>Sleep deficiency affects your body clock.</item>
         <item>Please take care of yourself.</item>
+        <item>A time for dreams and reflection.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>There are easter eggs hidden on this ROM.</item>
@@ -327,6 +330,13 @@
         <item>Always bring water to stay hydrated.</item>
         <item>Space smells like seared steak..</item>
         <item>Enjoy your day!</item>
+        <item>\'The only way to do great work is to love what you do.\' - Steve Jobs</item>
+        <item>Mindful notification settings help reduce interruptions.</item>
+        <item>Set clear boundaries for phone use in your daily routine.</item>
+        <item>Use \'Do Not Disturb\' mode during focused activities.</item>
+        <item>Practice single-tasking to boost productivity.</item>
+        <item>A desk clock promotes productivity.</item>
+        <item>Restart your device for most issues.</item>
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Weather -->
