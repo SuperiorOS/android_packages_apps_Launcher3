@@ -176,4 +176,9 @@
     <string name="restarting_launcher">Restarting launcher...</string>
     <string name="restarting_launcher_changes">Restarting launcher to apply changes...</string>
     <string name="updating_launcher_components">Restarting launcher to update launcher components...</string>
+
+    <!-- Task lock -->
+    <string name="task_menu_item_unlock">Unlock</string>
+    <string name="task_menu_item_lock">Lock</string>
+
 </resources>
