@@ -186,6 +186,8 @@
         <item>Bucură-te de noapte.</item>
         <item>Lugaw este o rețetă drăguță pentru cină.</item>
         <item>Bucură-te de somn.</item>
+        <item>Permite telefonului să se odihnească în timp ce ai prânzul.</item>
+        <item>Evită telefonul înainte de culcare pentru a dormi mai bine.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Deficitul de somn este dăunător pentru sănătatea ta.</item>
@@ -198,6 +200,7 @@
         <item>Bucură-te de miezul nopții.</item>
         <item>Deficiența de somn afectează ceasul corporal.</item>
         <item>Ai grijă de tine.</item>
+        <item>O vreme pentru vise și reflecție.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>Există ouă de Paște ascunse în acest ROM.</item>
@@ -223,6 +226,13 @@
         <item>Ia întotdeauna apă pentru a te menține hidratat.</item>
         <item>Spațiul miroase a friptură prăjită..</item>
         <item>Bucură-te de zi!</item>
+        <item>\"Singurul mod de a face o treabă excelentă este să iubești ceea ce faci.” - Steve Jobs</item>
+        <item>Setările bune de notificare ajută la reducerea întreruperilor.</item>
+        <item>Setează limite clare pentru utilizarea telefonului în rutina zilnică.</item>
+        <item>Utilizează modul \"Nu deranja\" în timpul activităților ce necesită concentrare.</item>
+        <item>Fă sarcinile pe rând pentru a crește productivitatea.</item>
+        <item>Un ceas de birou promovează productivitatea.</item>
+        <item>Repornește dispozitivul pentru majoritatea problemelor.</item>
     </string-array>
     <string name="quick_event_ambient_weather_title">Condiții meteo</string>
     <string name="quick_event_ambient_weather_summary">Afișează starea meteo curentă și temperatura</string>
