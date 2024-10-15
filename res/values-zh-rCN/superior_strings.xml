@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C)2020-2024 The SuperiorOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">桌面设置</string>
+    <string name="home_category_title">桌面</string>
+    <string name="home_category_summary">设置 Google now 面板等</string>
+    <string name="icons_category_title">图标</string>
+    <string name="icons_category_summary">设置图标大小等</string>
+    <string name="app_drawer_category_title">应用抽屉</string>
+    <string name="app_drawer_category_summary">自定义您的应用抽屉</string>
+    <string name="recents_category_title">最近任务</string>
+    <string name="recents_category_summary">修改概览页面</string>
+    <string name="misc_category_title">杂项</string>
+    <string name="misc_category_summary">其他选项</string>
+    <string name="general_category_title">常规</string>
+    <string name="interface_category_title">界面</string>
+    <string name="quickspace_category_title">QuickSpace</string>
+    <string name="search_bar_category_title">搜索栏</string>
+    <string name="actions_category_title">快捷操作</string>
+    <string name="dev_options_title">开发者选项</string>
+    <string name="dev_options_summary">开启隐藏功能 (有风险)</string>
+    <string name="settings_lock_layout_title">锁定布局</string>
+    <string name="settings_lock_layout_summary_on">不能在桌面上添加、删除和移动图标以及小部件</string>
+    <string name="settings_lock_layout_summary_off">不能在桌面上添加、删除和移动图标以及小部件</string>
+    <string name="settings_edit_widgets_error">无法将小部件添加到桌面</string>
+    <string name="desktop_show_labels">桌面上的图标名称</string>
+    <string name="drawer_show_labels">应用抽屉中的图标名称</string>
+    <string name="title_show_google_app">滑动即可访问 Google 应用</string>
+    <string name="msg_minus_one_on_left">从桌面向右滑动时</string>
+    <string name="msg_minus_one_on_right">从桌面向左划动时</string>
+    <string name="trust_apps_manager_name">已隐藏 &amp; 受保护的应用</string>
+    <string name="trust_apps_auth_manager">解锁以管理已隐藏和受保护的应用</string>
+    <string name="trust_apps_auth_open_app">认证以打开 %1$s</string>
+    <string name="trust_apps_loading">加载中\u2026</string>
+    <string name="trust_apps_no_lock_error">请设置锁屏密码以限制应用访问</string>
+    <string name="trust_apps_help">帮助</string>
+    <string name="trust_apps_info_hidden">已被隐藏的应用及其小部件已从应用抽屉中隐藏</string>
+    <string name="trust_apps_info_protected">需要经过认证才能从启动器打开受保护的应用</string>
+    <string name="suggestion_pref_screen_title">建议</string>
+    <string name="suggestion_pref_screen_desc">适用于所有应用程序 &amp; 桌面建议</string>
+    <string name="pause">暂停</string>
+    <string name="pause_apps_dialog_title">暂停 %1$s 吗？</string>
+    <string name="pause_apps_dialog_message">%1$s 的通知将暂停</string>
+    <string name="paused_apps_dialog_title">应用已暂停</string>
+    <string name="paused_apps_dialog_message">%1$s 直接从启动器暂停</string>
+    <string name="paused_apps_drop_target_label">暂停应用</string>
+    <string name="pref_sleep_gesture_title">双击以休眠</string>
+    <string name="pref_sleep_gesture_summary">双击空白处以息屏</string>
+    <string name="custom_seekbar_value">值: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值： <xliff:g id="v">%s</xliff:g>\n长
+          按即可设置</string>
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
+    <string name="icon_size_title">图标大小</string>
+    <string name="font_size_title">字号</string>
+    <string name="icon_two_lines_title">使用两行应用标签</string>
+    <string name="recent_task_option_kill_app">停止</string>
+    <string name="recents_app_killed">应用已停止</string>
+    <string name="label_search">搜索</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">语音搜索</string>
+    <string name="dock_music_search_title">音乐搜索</string>
+    <string name="dock_music_search_summary">按下麦克风图标即可开始音乐搜索</string>
+    <string name="dock_search_title">Google 搜索栏</string>
+    <string name="dock_search_summary">在 Dock 栏处显示搜索栏</string>
+    <string name="dock_theme_title">带主题的图标</string>
+    <string name="dock_theme_summary">为搜索栏使用带主题的图标</string>
+    <string name="search_radius_title">圆角半径</string>
+    <string name="hotseat_bg_title">小部件背景</string>
+    <string name="hotseat_bg_summary">添加模糊背景到 Dock 栏</string>
+    <string name="background_opacity_title">背景不透明度</string>
+    <string name="allow_wallpaper_scrolling">壁纸滚动</string>
+    <string name="allow_wallpaper_scrolling_summary">壁纸随屏幕滚动</string>
+    <string name="allow_wallpaper_zooming">壁纸缩放</string>
+    <string name="allow_wallpaper_zooming_summary">上拉应用抽屉或最近应用时缩放壁纸</string>
+    <string name="show_statusbar_title">状态栏​​​​​​​</string>
+    <string name="show_top_shadow">顶部阴影</string>
+    <string name="row_height_title">行高</string>
+    <string name="meminfo_text">%1$s 可用 | 总共%2$s</string>
+    <string name="recents_meminfo_title">内存信息</string>
+    <string name="background_blur_title">背景模糊深度</string>
+    <string name="background_blur_summary">为最近任务和应用抽屉设置模糊度</string>
+    <string name="recents_screenshot_title">屏幕截图</string>
+    <string name="recents_clear_all_title">全部清除</string>
+    <string name="recents_lens_title">智能镜头</string>
+    <string name="pref_themed_icons_title">带主题的图标</string>
+    <string name="pref_themed_icons_summary">依照桌面上使用的主题图标</string>
+    <string name="short_parallax_title">壁纸滚动</string>
+    <string name="short_parallax_summary">对数量较少的页面启用完整的壁纸滚动效果，而不是裁剪壁纸</string>
+    <string name="single_page_center_title">单页居中</string>
+    <string name="single_page_center_summary">如果只使用一个页面则居中壁纸</string>
+    <string name="drawer_search_title">应用搜索栏</string>
+    <string name="drawer_search_summary">应用抽屉顶部搜索栏</string>
+    <string name="pref_restart_title">重新启动</string>
+    <string name="pref_restart_summary">重启桌面以应用待定的设置</string>
+    <string name="restarting_launcher">正在重启桌面...</string>
+    <string name="restarting_launcher_changes">正在重启桌面以保存更改...</string>
+    <string name="updating_launcher_components">正在重启桌面以更新组件...</string>
+    <string name="show_quickspace_title">速览</string>
+    <string name="show_quickspace_summary">在桌面的顶部显示</string>
+    <string name="quick_event_rom_intro_welcome">欢迎来到 SuperiorOS!</string>
+    <string name="quick_event_rom_intro_welcome_ext">It\'s SuperiorOS time!</string>
+    <string-array name="welcome_message_variants">
+        <item>感谢您选择我们</item>
+        <item>喜欢我们？支持下我们呗</item>
+        <item>有史以来最棒的系统！</item>
+        <item>到 Telegram 上与我们交流吧！</item>
+        <item>点击此处开始</item>
+        <item>爱你3000遍哦~</item>
+    </string-array>
+    <string name="quickspace_grt_morning">早上好呀~</string>
+    <string name="quickspace_grt_evening">晚上好呀~</string>
+    <string name="quickspace_grt_afternoon">下午好呀~</string>
+    <string name="quickspace_grt_night">好梦哦~</string>
+    <string name="quickspace_grt_general">祝你今日顺利哦~</string>
+    <string name="quickspace_ext_one">今天是</string>
+    <string name="quickspace_ext_two">现在是</string>
+    <string name="qe_now_playing_unknown_artist">未知歌手</string>
+    <string name="qe_now_playing_ext_one">正在播放</string>
+    <string name="qe_now_playing_by">作者</string>
+    <string name="quickspace_now_playing_title">正在播放</string>
+    <string name="quickspace_now_playing_summary">显示您正在播放的歌曲</string>
+    <string name="quickspace_alternate_style_title">扩展样式</string>
+    <string name="quickspace_alternate_style_summary">切换到扩展样式</string>
+    <string name="quickspace_psa_title">随机消息</string>
+    <string name="quickspace_psa_summary">用随机消息，让您不再感到无聊！</string>
+    <string-array name="quickspace_psa_morning">
+        <item>早上好呀~</item>
+        <item>早上好呀，今天也要元气满满哦~</item>
+        <item>多么美好的一天啊!</item>
+        <item>祝您今日愉快!</item>
+        <item>要不... 小睡五分钟?</item>
+        <item>今天也要努力哦~</item>
+        <item>清晨是一幅等待你每日杰作的崭新画布</item>
+        <item>每个清晨，都来迎接机会的旭日吧</item>
+        <item>在晨曦中，找到照亮前路的力量</item>
+        <item>你的每一天都是以无尽的可能性开始的哦</item>
+        <item>每一个日出，都在提醒你开始新的一天</item>
+        <item>带着你的梦想，征服每一天吧</item>
+        <item>你的思想可以成为伟大成就的基石</item>
+        <item>世界苏醒了，你的潜力也随之觉醒了</item>
+        <item>你每日冒险的第一章</item>
+        <item>一日之计在于晨</item>
+        <item>无论是否日出，你的潜力总在不断提升</item>
+        <item>是时候创新已经付诸行动啦</item>
+        <item>早起的鸟儿有虫吃，你也能抓住你的梦想</item>
+        <item>鼓起勇气追逐你的梦想吧!</item>
+        <item>崛起，辉煌，伟大触手可及</item>
+        <item>做一件事的最好时机是现在</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>追寻梦想，而非计较时间</item>
+        <item>在每一刻，都蕴藏着新的机遇</item>
+        <item>一定要珍惜旅程，而不只是为了抵达终点</item>
+        <item>今天是一份礼物，这就是它被称为‘现在’的原因</item>
+        <item>让你的微笑改变全世界吧!</item>
+        <item>人生如同故事，努力让每一章都有意义吧</item>
+        <item>在平凡中寻找快乐</item>
+        <item>坚持下去，一定会时来运转的</item>
+        <item>这是将‘如果’变成‘现实’的机会</item>
+        <item>只争朝夕，从现在开始!</item>
+        <item>快乐是你可以随时做出的选择</item>
+        <item>即便是在昏昏欲睡的午后，也要相信自己</item>
+        <item>让你的行动胜过时间的滴答声</item>
+        <item>你的人生是为自己所创造的；让它精彩纷呈</item>
+        <item>怀揣远大梦想，努力工作，并且永不放弃！</item>
+        <item>你比你所想象的更强大</item>
+        <item>长风破浪会有时，直挂云帆济沧海</item>
+        <item>一定要珍惜旅程，而不只是为了抵达终点</item>
+        <item>追随你的目标，而不是你的恐惧</item>
+        <item>激发你那无限的潜力吧!</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>珍惜当下，无论人生几何</item>
+        <item>在每个黄昏中，寻得新的曙光</item>
+        <item>生活就像一场旅行，记得享受沿途的风景</item>
+        <item>态度决定成败</item>
+        <item>你的故事将经久不息</item>
+        <item>在平凡的时刻中捕捉美好</item>
+        <item>业精于勤, 荒于嬉；行成于思, 毁于随</item>
+        <item>天大地大，快乐最大</item>
+        <item>机会在夜晚可不会打卡下班</item>
+        <item>成为别人微笑的理由吧</item>
+        <item>你的能量，超乎想象</item>
+        <item>魔法随时都能发生哦</item>
+        <item>你的人生是为自己所创造的；让它非同寻常</item>
+        <item>保持好奇，保持敬畏</item>
+        <item>成为你想要的自己</item>
+        <item>相信自己，你有能力创造奇迹</item>
+        <item>唯一的限制是你为自己设置的</item>
+        <item>千里之行，始于足下</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>把握夜晚，因为它蕴藏着独特的奥秘</item>
+        <item>感受宁静</item>
+        <item>人生最伟大的冒险可能始于黑暗</item>
+        <item>即使夕阳西下，你的旅程仍在继续</item>
+        <item>黑夜是梦想的伟大画布</item>
+        <item>在这寂静的夜晚，感受内心的宁静</item>
+        <item>星星总是在最黑暗的时刻发出最耀眼的光芒</item>
+        <item>夜深人静时亦心潮澎湃</item>
+        <item>你的人生，就是待叙的伟大史诗</item>
+        <item>业精于勤, 荒于嬉；行成于思, 毁于随</item>
+        <item>每一个想法都可能是伟大行动的开端</item>
+        <item>乐从静夜来</item>
+        <item>夜空是梦想的广阔画布</item>
+        <item>潜能不舍昼夜，激情即刻启航</item>
+        <item>即使在最黑暗的时候，也要充满希望哦</item>
+        <item>物外嚣尘，怡然自得</item>
+        <item>积极，努力，梦想就会实现</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>夜晚是机遇的低语</item>
+        <item>在寂静的夜晚，找到你内心的力量</item>
+        <item>拥抱黑暗，因为它藏着通往梦想的钥匙</item>
+        <item>世界已经入眠，但你的潜能依然清醒!</item>
+        <item>夜晚万籁俱寂，雄心震耳欲聋!</item>
+        <item>保持好奇与清醒，然后让夜晚指引你前行</item>
+        <item>鼓起勇气追逐你的梦想吧!</item>
+        <item>宝剑锋从磨砺出，梅花香自苦寒来</item>
+        <item>我命由我不由天</item>
+        <item>幸福是一个选择，记得每天都要选哦</item>
+        <item>你的人生，由你自己决定！</item>
+        <item>全神贯注，坚定不移，雷厉风行</item>
+        <item>我命由我不由天</item>
+        <item>追求进步，而非完美</item>
+        <item>每天都是新的开始，让它变得更好吧</item>
+        <item>活出自我，然后去激励他人</item>
+        <item>态度决定方向</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>天真是一种幸福</item>
+        <item>是时候更新了?</item>
+        <item>缔造和平，而非战争</item>
+        <item>嘿，怎么啦？今天还好吗？</item>
+        <item>不要再看我了，该专心工作了（▼ヘ▼）</item>
+        <item>你截了多少图了？</item>
+        <item>在 SuperiosOS 中开启你的好运吧</item>
+        <item>用爱传递正能量</item>
+        <item>我们不提倡战争!</item>
+        <item>累了么？是时候听一些好的音乐啦</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>只有 SuperiosOS Premium 才能看到这条哦</item>
+        <item>勿忘 Lineage</item>
+        <item>享受延长的电池寿命吧</item>
+        <item>从零开始</item>
+        <item>爱你3000遍哦~</item>
+        <item>即使没有寿司也很美味</item>
+        <item>日行一善</item>
+        <item>这难道不是最棒的Pixel体验吗?</item>
+        <item>这里没有幻想，欢迎回到现实！</item>
+        <item>感谢您的支持</item>
+        <item>沒有给小白们庆祝的节日 — 只有完美！</item>
+        <item>Buildbot 的最佳选择之一</item>
+        <item>为您的偏执增添一些理智</item>
+        <item>来点冰凉的甜点吧</item>
+        <item>多么美好的经历啊，难道不是吗?</item>
+        <item>Evolution是一个神话，对吗？</item>
+        <item>走自己的路，让别人说去吧</item>
+        <item>你在想什么呢?</item>
+        <item>守护神咒</item>
+        <item>Dubi Dubi Do</item>
+        <item>大吉大利 今晚……？</item>
+        <item>rm -rf \/</item>
+        <item>Pringles 实际上不是薯片...</item>
+        <item>记得检查电量！</item>
+        <item>检查你的电子邮件/信息</item>
+        <item>别忘了检查你的To-do List</item>
+        <item>您可以通过桌面设置禁用快速空间。</item>
+    </string-array>
+    <string name="quick_event_ambient_weather_title">更新天气</string>
+    <string name="quick_event_ambient_weather_summary">显示当前天气更新</string>
+    <string name="quick_event_ambient_weather_enabled_info">需要启用天气服务</string>
+    <string name="quick_event_weather_clouds">多云</string>
+    <string name="quick_event_weather_rain">雨天</string>
+    <string name="quick_event_weather_clear">晴天</string>
+    <string name="quick_event_weather_storm">暴雨</string>
+    <string name="quick_event_weather_snow">下雪</string>
+    <string name="quick_event_weather_wind">大风</string>
+    <string name="quick_event_weather_mist">雾霾</string>
+    <string name="quick_event_weather_city_title">当前位置</string>
+    <string name="quick_event_weather_city_summary">显示当前天气位置</string>
+    <string name="quick_event_weather_text_title">当前天气状况</string>
+    <string name="quick_event_weather_text_summary">显示当前天气状况摘要</string>
+    <string name="intent_no_app_clock_found">找不到日历或时钟活动</string>
+</resources>
