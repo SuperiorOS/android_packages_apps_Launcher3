@@ -1785,7 +1785,7 @@ public class Launcher extends StatefulActivity<LauncherState>
         mOverlayManager.onActivityDestroyed();
         
         if (mQuickSpace != null) {
-            mQuickSpace.onPause();
+            mQuickSpace.onDestroy();
         }
     }
 
